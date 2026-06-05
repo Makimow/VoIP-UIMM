@@ -1,0 +1,70 @@
+!
+! ============================================
+! CONFIG ROUTEUR CISCO 2811
+! Projet Réseau BTS CIEL IR 2025/2026
+! Router-on-a-stick + DHCP + VoIP CME
+! ============================================
+!
+enable
+configure terminal
+!
+hostname Routeur-Reseau
+!
+! --- INTERFACE PHYSIQUE VERS SWITCH ---
+interface FastEthernet0/0
+ no shutdown
+exit
+!
+! --- SOUS-INTERFACE VLAN 20 (DATA - PC) ---
+interface FastEthernet0/0.20
+ encapsulation dot1Q 20
+ ip address 192.168.220.254 255.255.255.0
+ ip helper-address 192.168.220.1
+ no shutdown
+exit
+!
+! --- SOUS-INTERFACE VLAN 10 (VOICE - Téléphones) ---
+interface FastEthernet0/0.10
+ encapsulation dot1Q 10
+ ip address 192.168.110.254 255.255.255.0
+ ip helper-address 192.168.110.1
+ no shutdown
+exit
+!
+! --- DHCP VLAN 10 (pour les téléphones IP) ---
+ip dhcp excluded-address 192.168.110.1 192.168.110.99
+ip dhcp pool VLAN10
+ network 192.168.110.0 255.255.255.0
+ default-router 192.168.110.254
+ dns-server 8.8.8.8
+ option 150 ip 192.168.110.254
+ lease 1
+exit
+!
+! --- VOIP CISCO CME (simule Asterisk) ---
+telephony-service
+ max-ephones 5
+ max-dn 5
+ ip source-address 192.168.110.254 port 2000
+ auto assign 1 to 5
+exit
+!
+! Extension 6001 (PC1 / Softphone PC1)
+ephone-dn 1
+ number 6001
+exit
+!
+! Extension 6002 (PC2 / Softphone PC2)
+ephone-dn 2
+ number 6002
+exit
+!
+! Extension 6003 (Smartphone)
+ephone-dn 3
+ number 6003
+exit
+!
+! --- SAUVEGARDE ---
+end
+write memory
+!
