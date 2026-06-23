@@ -1,0 +1,1597 @@
+[Jun  2 11:42:48] Asterisk 22.9.0 built by root @ buildkitsandbox on a aarch64 running Linux on 2026-05-27 09:07:27 UTC
+[Jun  2 11:42:48] NOTICE[1] loader.c: 340 modules will be loaded.
+[Jun  2 11:42:48] WARNING[1] res_odbc.c: Unable to load config file res_odbc.conf
+[Jun  2 11:42:49] WARNING[1] res_config_pgsql.c: Unable to load config res_pgsql.conf
+[Jun  2 11:42:49] ERROR[1] res_config_ldap.c: Cannot load configuration file: res_ldap.conf
+[Jun  2 11:42:49] ERROR[1] res_config_ldap.c: Cannot load LDAP RealTime driver.
+[Jun  2 11:42:49] ERROR[1] res_config_sqlite3.c: Missing config file 'res_config_sqlite3.conf'
+[Jun  2 11:42:49] ERROR[1] config_options.c: Unable to load config file 'statsd.conf'
+[Jun  2 11:42:49] NOTICE[1] res_statsd.c: Could not load statsd config; using defaults
+[Jun  2 11:42:49] WARNING[1] ccss.c: Could not find valid ccss.conf file. Using cc_max_requests and devstate defaults
+[Jun  2 11:42:49] ERROR[1] config_options.c: Unable to load config file 'cdr.conf'
+[Jun  2 11:42:49] NOTICE[1] cdr.c: Failed to process CDR configuration; using defaults
+[Jun  2 11:42:49] NOTICE[1] cdr.c: CDR simple logging enabled.
+[Jun  2 11:42:49] ERROR[1] config_options.c: Unable to load config file 'cel.conf'
+[Jun  2 11:42:49] NOTICE[1] cel.c: Failed to process CEL configuration; using defaults
+[Jun  2 11:42:49] ERROR[1] config_options.c: Unable to load config file 'features.conf'
+[Jun  2 11:42:49] NOTICE[1] features_config.c: Could not load features config; using defaults
+[Jun  2 11:42:49] WARNING[1] indications.c: Can't find indications config file indications.conf.
+[Jun  2 11:42:49] ERROR[1] config_options.c: Unable to load config file 'acl.conf'
+[Jun  2 11:42:49] NOTICE[1] manager.c: Unable to open AMI configuration manager.conf, or configuration is invalid.
+[Jun  2 11:42:49] ERROR[1] config_options.c: Unable to load config file 'udptl.conf'
+[Jun  2 11:42:49] NOTICE[1] udptl.c: Could not load udptl config; using defaults
+[Jun  2 11:42:49] ERROR[1] res_sorcery_config.c: Unable to load config file 'geolocation.conf'
+[Jun  2 11:42:49] ERROR[1] res_sorcery_config.c: Unable to load config file 'geolocation.conf'
+[Jun  2 11:42:49] ERROR[1] res_sorcery_config.c: Unable to load config file 'pjproject.conf'
+[Jun  2 11:42:49] ERROR[1] res_pjsip_config_wizard.c: Unable to load config file 'pjsip_wizard.conf'
+[Jun  2 11:42:49] ERROR[1] res_pjsip_config_wizard.c: Unable to load config file 'pjsip_wizard.conf'
+[Jun  2 11:42:49] ERROR[1] res_pjsip_config_wizard.c: Unable to load config file 'pjsip_wizard.conf'
+[Jun  2 11:42:49] ERROR[1] res_pjsip_config_wizard.c: Unable to load config file 'pjsip_wizard.conf'
+[Jun  2 11:42:49] WARNING[1] res_stun_monitor.c: Unable to load config res_stun_monitor.conf
+[Jun  2 11:42:49] WARNING[1] res_musiconhold.c: No music on hold classes configured, disabling music on hold.
+[Jun  2 11:42:49] ERROR[1] res_sorcery_config.c: Unable to load config file 'aeap.conf'
+[Jun  2 11:42:49] ERROR[1] res_phoneprov.c: Unable to load config phoneprov.conf
+[Jun  2 11:42:49] ERROR[1] res_phoneprov.c: Unable to load provisioning profiles.
+[Jun  2 11:42:49] ERROR[1] res_sorcery_config.c: Unable to load config file 'websocket_client.conf'
+[Jun  2 11:42:49] NOTICE[1] res_smdi.c: Unable to load config smdi.conf: SMDI disabled
+[Jun  2 11:42:49] NOTICE[1] res_smdi.c: No SMDI interfaces are available to listen on, not starting SMDI listener.
+[Jun  2 11:42:49] ERROR[1] chan_iax2.c: Unable to load config iax.conf
+[Jun  2 11:42:49] NOTICE[1] chan_console.c: Unable to open configuration file console.conf!
+[Jun  2 11:42:49] ERROR[1] res_sorcery_config.c: Unable to load config file 'chan_websocket.conf'
+[Jun  2 11:42:49] ERROR[1] config_options.c: Unable to load config file 'hep.conf'
+[Jun  2 11:42:49] NOTICE[1] res_fax.c: Configuration file 'res_fax.conf' not found, using default options.
+[Jun  2 11:42:49] ERROR[1] res_sorcery_config.c: Unable to load config file 'ari.conf'
+[Jun  2 11:42:49] ERROR[1] res_sorcery_config.c: Unable to load config file 'ari.conf'
+[Jun  2 11:42:49] ERROR[1] res_sorcery_config.c: Unable to load config file 'ari.conf'
+[Jun  2 11:42:49] ERROR[1] res_pjsip_config_wizard.c: Unable to load config file 'pjsip_wizard.conf'
+[Jun  2 11:42:49] ERROR[1] config_options.c: Unable to load config file 'pjsip_notify.conf'
+[Jun  2 11:42:49] ERROR[1] res_calendar.c: Unable to load config calendar.conf
+[Jun  2 11:42:49] ERROR[1] config_options.c: Unable to load config file 'res_parking.conf'
+[Jun  2 11:42:49] ERROR[1] config_options.c: Unable to load config file 'agents.conf'
+[Jun  2 11:42:49] ERROR[1] app_agent_pool.c: Unable to load config. Not loading module.
+[Jun  2 11:42:49] ERROR[1] config_options.c: Unable to load config file 'confbridge.conf'
+[Jun  2 11:42:49] ERROR[1] app_confbridge.c: Unable to load config. Not loading module.
+[Jun  2 11:42:49] WARNING[1] cdr_manager.c: Failed to load configuration file. Module not activated.
+[Jun  2 11:42:49] WARNING[1] cdr_pgsql.c: Unable to load config for PostgreSQL CDR's: cdr_pgsql.conf
+[Jun  2 11:42:49] WARNING[1] cel_manager.c: Failed to load configuration file. CEL manager Module not activated.
+[Jun  2 11:42:49] WARNING[1] cdr_csv.c: unable to load config: cdr.conf
+[Jun  2 11:42:49] WARNING[1] cel_pgsql.c: Unable to load config for PostgreSQL CEL's: cel_pgsql.conf
+[Jun  2 11:42:49] ERROR[1] cdrel_custom/config.c: Unable to load cdr_sqlite3_custom.conf. Not logging CDRs to custom database
+[Jun  2 11:42:49] ERROR[1] cdrel_custom/config.c: Unable to load cdr_custom.conf. Not logging CDRs to custom files
+[Jun  2 11:42:49] ERROR[1] cdrel_custom/config.c: Unable to load cel_custom.conf. Not logging CELs to custom files
+[Jun  2 11:42:49] ERROR[1] cdrel_custom/config.c: Unable to load cel_sqlite3_custom.conf. Not logging CELs to custom database
+[Jun  2 11:42:49] WARNING[1] app_voicemail.c: Failed to load configuration file.
+[Jun  2 11:42:49] WARNING[1] app_minivm.c: Failed to load configuration file. Module activated with default settings.
+[Jun  2 11:42:49] WARNING[1] app_followme.c: No follow me config file (followme.conf), so no follow me
+[Jun  2 11:42:49] ERROR[1] config_options.c: Unable to load config file 'res_http_media_cache.conf'
+[Jun  2 11:42:49] NOTICE[1] res_http_media_cache.c: Could not load res_http_media_cache config; using defaults
+[Jun  2 11:42:49] ERROR[1] app_amd.c: Configuration file amd.conf missing.
+[Jun  2 11:42:49] ERROR[1] chan_unistim.c: Unable to load config unistim.conf
+[Jun  2 11:42:49] ERROR[1] res_clialiases.c: res_clialiases configuration file 'cli_aliases.conf' not found
+[Jun  2 11:42:49] NOTICE[1] pbx_ael.c: File /etc/asterisk/extensions.ael not found; AEL declining load
+[Jun  2 11:42:49] ERROR[1] pbx_dundi.c: Unable to load config dundi.conf
+[Jun  2 11:42:49] ERROR[1] config_options.c: Unable to load config file 'prometheus.conf'
+[Jun  2 11:42:49] NOTICE[1] app_queue.c: No queuerules.conf file found, queues will not follow penalty rules
+[Jun  2 11:42:49] NOTICE[1] app_queue.c: No call queueing config file (queues.conf), so no call queues
+[Jun  2 11:42:49] WARNING[1] loader.c: Some non-required modules failed to load.
+[Jun  2 11:42:49] WARNING[1] loader.c: Module 'res_adsi' has been loaded but may be removed in a future release.
+[Jun  2 11:42:49] WARNING[1] loader.c: Module 'app_adsiprog' has been loaded but may be removed in a future release.
+[Jun  2 11:42:49] WARNING[1] loader.c: Module 'app_getcpeid' has been loaded but may be removed in a future release.
+[Jun  2 11:42:49] ERROR[1] loader.c: Error loading module 'format_ogg_vorbis.so': libvorbisenc.so.2: cannot open shared object file: No such file or directory
+[Jun  2 11:42:49] ERROR[1] loader.c: res_odbc declined to load.
+[Jun  2 11:42:49] ERROR[1] loader.c: Declined modules which depend on res_odbc: res_config_odbc, cel_odbc, cdr_odbc, cdr_adaptive_odbc, func_odbc
+[Jun  2 11:42:49] ERROR[1] loader.c: res_config_pgsql declined to load.
+[Jun  2 11:42:49] ERROR[1] loader.c: res_stun_monitor declined to load.
+[Jun  2 11:42:49] ERROR[1] loader.c: res_phoneprov declined to load.
+[Jun  2 11:42:49] ERROR[1] loader.c: Declined modules which depend on res_phoneprov: res_pjsip_phoneprov_provider
+[Jun  2 11:42:49] ERROR[1] loader.c: chan_iax2 declined to load.
+[Jun  2 11:42:49] ERROR[1] loader.c: chan_console declined to load.
+[Jun  2 11:42:49] ERROR[1] loader.c: res_hep declined to load.
+[Jun  2 11:42:49] ERROR[1] loader.c: Declined modules which depend on res_hep: res_hep_rtcp, res_hep_pjsip
+[Jun  2 11:42:49] ERROR[1] loader.c: res_pjsip_notify declined to load.
+[Jun  2 11:42:49] ERROR[1] loader.c: res_calendar declined to load.
+[Jun  2 11:42:49] ERROR[1] loader.c: res_parking declined to load.
+[Jun  2 11:42:49] ERROR[1] loader.c: app_agent_pool declined to load.
+[Jun  2 11:42:49] ERROR[1] loader.c: app_confbridge declined to load.
+[Jun  2 11:42:49] ERROR[1] loader.c: Declined modules which depend on app_confbridge: app_page
+[Jun  2 11:42:49] ERROR[1] loader.c: cdr_manager declined to load.
+[Jun  2 11:42:49] ERROR[1] loader.c: cdr_pgsql declined to load.
+[Jun  2 11:42:49] ERROR[1] loader.c: cel_manager declined to load.
+[Jun  2 11:42:49] ERROR[1] loader.c: cdr_csv declined to load.
+[Jun  2 11:42:49] ERROR[1] loader.c: cel_pgsql declined to load.
+[Jun  2 11:42:49] ERROR[1] loader.c: cdr_sqlite3_custom declined to load.
+[Jun  2 11:42:49] ERROR[1] loader.c: cdr_custom declined to load.
+[Jun  2 11:42:49] ERROR[1] loader.c: cel_custom declined to load.
+[Jun  2 11:42:49] ERROR[1] loader.c: cel_sqlite3_custom declined to load.
+[Jun  2 11:42:49] ERROR[1] loader.c: app_followme declined to load.
+[Jun  2 11:42:49] ERROR[1] loader.c: app_amd declined to load.
+[Jun  2 11:42:49] ERROR[1] loader.c: chan_unistim declined to load.
+[Jun  2 11:42:49] ERROR[1] loader.c: app_alarmreceiver declined to load.
+[Jun  2 11:42:49] ERROR[1] loader.c: pbx_ael declined to load.
+[Jun  2 11:42:49] ERROR[1] loader.c: pbx_dundi declined to load.
+[Jun  2 11:42:49] ERROR[1] loader.c: res_prometheus declined to load.
+[Jun  2 11:42:49] ERROR[1] loader.c: app_queue declined to load.
+[Jun  2 11:43:03] Asterisk 22.9.0 built by root @ buildkitsandbox on a aarch64 running Linux on 2026-05-27 09:07:27 UTC
+[Jun  2 11:43:03] NOTICE[1] loader.c: 340 modules will be loaded.
+[Jun  2 11:43:03] WARNING[1] res_odbc.c: Unable to load config file res_odbc.conf
+[Jun  2 11:43:03] WARNING[1] res_config_pgsql.c: Unable to load config res_pgsql.conf
+[Jun  2 11:43:03] ERROR[1] res_config_ldap.c: Cannot load configuration file: res_ldap.conf
+[Jun  2 11:43:03] ERROR[1] res_config_ldap.c: Cannot load LDAP RealTime driver.
+[Jun  2 11:43:03] ERROR[1] res_config_sqlite3.c: Missing config file 'res_config_sqlite3.conf'
+[Jun  2 11:43:03] ERROR[1] config_options.c: Unable to load config file 'statsd.conf'
+[Jun  2 11:43:03] NOTICE[1] res_statsd.c: Could not load statsd config; using defaults
+[Jun  2 11:43:03] WARNING[1] ccss.c: Could not find valid ccss.conf file. Using cc_max_requests and devstate defaults
+[Jun  2 11:43:03] ERROR[1] config_options.c: Unable to load config file 'cdr.conf'
+[Jun  2 11:43:03] NOTICE[1] cdr.c: Failed to process CDR configuration; using defaults
+[Jun  2 11:43:03] NOTICE[1] cdr.c: CDR simple logging enabled.
+[Jun  2 11:43:03] ERROR[1] config_options.c: Unable to load config file 'cel.conf'
+[Jun  2 11:43:03] NOTICE[1] cel.c: Failed to process CEL configuration; using defaults
+[Jun  2 11:43:03] ERROR[1] config_options.c: Unable to load config file 'features.conf'
+[Jun  2 11:43:03] NOTICE[1] features_config.c: Could not load features config; using defaults
+[Jun  2 11:43:03] WARNING[1] indications.c: Can't find indications config file indications.conf.
+[Jun  2 11:43:03] ERROR[1] config_options.c: Unable to load config file 'acl.conf'
+[Jun  2 11:43:03] NOTICE[1] manager.c: Unable to open AMI configuration manager.conf, or configuration is invalid.
+[Jun  2 11:43:03] ERROR[1] config_options.c: Unable to load config file 'udptl.conf'
+[Jun  2 11:43:03] NOTICE[1] udptl.c: Could not load udptl config; using defaults
+[Jun  2 11:43:03] ERROR[1] res_sorcery_config.c: Unable to load config file 'geolocation.conf'
+[Jun  2 11:43:03] ERROR[1] res_sorcery_config.c: Unable to load config file 'geolocation.conf'
+[Jun  2 11:43:03] ERROR[1] res_sorcery_config.c: Unable to load config file 'pjproject.conf'
+[Jun  2 11:43:03] ERROR[1] res_pjsip_config_wizard.c: Unable to load config file 'pjsip_wizard.conf'
+[Jun  2 11:43:03] ERROR[1] res_pjsip_config_wizard.c: Unable to load config file 'pjsip_wizard.conf'
+[Jun  2 11:43:03] ERROR[1] res_pjsip_config_wizard.c: Unable to load config file 'pjsip_wizard.conf'
+[Jun  2 11:43:03] ERROR[1] res_pjsip_config_wizard.c: Unable to load config file 'pjsip_wizard.conf'
+[Jun  2 11:43:03] WARNING[1] res_stun_monitor.c: Unable to load config res_stun_monitor.conf
+[Jun  2 11:43:03] WARNING[1] res_musiconhold.c: No music on hold classes configured, disabling music on hold.
+[Jun  2 11:43:03] ERROR[1] res_sorcery_config.c: Unable to load config file 'aeap.conf'
+[Jun  2 11:43:03] ERROR[1] res_phoneprov.c: Unable to load config phoneprov.conf
+[Jun  2 11:43:03] ERROR[1] res_phoneprov.c: Unable to load provisioning profiles.
+[Jun  2 11:43:03] ERROR[1] res_sorcery_config.c: Unable to load config file 'websocket_client.conf'
+[Jun  2 11:43:03] NOTICE[1] res_smdi.c: Unable to load config smdi.conf: SMDI disabled
+[Jun  2 11:43:03] NOTICE[1] res_smdi.c: No SMDI interfaces are available to listen on, not starting SMDI listener.
+[Jun  2 11:43:03] ERROR[1] chan_iax2.c: Unable to load config iax.conf
+[Jun  2 11:43:03] NOTICE[1] chan_console.c: Unable to open configuration file console.conf!
+[Jun  2 11:43:03] ERROR[1] res_sorcery_config.c: Unable to load config file 'chan_websocket.conf'
+[Jun  2 11:43:03] ERROR[1] config_options.c: Unable to load config file 'hep.conf'
+[Jun  2 11:43:03] NOTICE[1] res_fax.c: Configuration file 'res_fax.conf' not found, using default options.
+[Jun  2 11:43:03] ERROR[1] res_sorcery_config.c: Unable to load config file 'ari.conf'
+[Jun  2 11:43:03] ERROR[1] res_sorcery_config.c: Unable to load config file 'ari.conf'
+[Jun  2 11:43:03] ERROR[1] res_sorcery_config.c: Unable to load config file 'ari.conf'
+[Jun  2 11:43:03] ERROR[1] res_pjsip_config_wizard.c: Unable to load config file 'pjsip_wizard.conf'
+[Jun  2 11:43:03] ERROR[1] config_options.c: Unable to load config file 'pjsip_notify.conf'
+[Jun  2 11:43:03] ERROR[1] res_calendar.c: Unable to load config calendar.conf
+[Jun  2 11:43:03] ERROR[1] config_options.c: Unable to load config file 'res_parking.conf'
+[Jun  2 11:43:03] ERROR[1] config_options.c: Unable to load config file 'agents.conf'
+[Jun  2 11:43:03] ERROR[1] app_agent_pool.c: Unable to load config. Not loading module.
+[Jun  2 11:43:03] ERROR[1] config_options.c: Unable to load config file 'confbridge.conf'
+[Jun  2 11:43:03] ERROR[1] app_confbridge.c: Unable to load config. Not loading module.
+[Jun  2 11:43:03] WARNING[1] cdr_manager.c: Failed to load configuration file. Module not activated.
+[Jun  2 11:43:03] WARNING[1] cdr_pgsql.c: Unable to load config for PostgreSQL CDR's: cdr_pgsql.conf
+[Jun  2 11:43:03] WARNING[1] cel_manager.c: Failed to load configuration file. CEL manager Module not activated.
+[Jun  2 11:43:03] WARNING[1] cdr_csv.c: unable to load config: cdr.conf
+[Jun  2 11:43:03] WARNING[1] cel_pgsql.c: Unable to load config for PostgreSQL CEL's: cel_pgsql.conf
+[Jun  2 11:43:03] ERROR[1] cdrel_custom/config.c: Unable to load cdr_sqlite3_custom.conf. Not logging CDRs to custom database
+[Jun  2 11:43:03] ERROR[1] cdrel_custom/config.c: Unable to load cdr_custom.conf. Not logging CDRs to custom files
+[Jun  2 11:43:03] ERROR[1] cdrel_custom/config.c: Unable to load cel_custom.conf. Not logging CELs to custom files
+[Jun  2 11:43:03] ERROR[1] cdrel_custom/config.c: Unable to load cel_sqlite3_custom.conf. Not logging CELs to custom database
+[Jun  2 11:43:03] WARNING[1] app_voicemail.c: Failed to load configuration file.
+[Jun  2 11:43:03] WARNING[1] app_minivm.c: Failed to load configuration file. Module activated with default settings.
+[Jun  2 11:43:03] WARNING[1] app_followme.c: No follow me config file (followme.conf), so no follow me
+[Jun  2 11:43:03] ERROR[1] config_options.c: Unable to load config file 'res_http_media_cache.conf'
+[Jun  2 11:43:03] NOTICE[1] res_http_media_cache.c: Could not load res_http_media_cache config; using defaults
+[Jun  2 11:43:03] ERROR[1] app_amd.c: Configuration file amd.conf missing.
+[Jun  2 11:43:03] ERROR[1] chan_unistim.c: Unable to load config unistim.conf
+[Jun  2 11:43:03] ERROR[1] res_clialiases.c: res_clialiases configuration file 'cli_aliases.conf' not found
+[Jun  2 11:43:03] NOTICE[1] pbx_ael.c: File /etc/asterisk/extensions.ael not found; AEL declining load
+[Jun  2 11:43:03] ERROR[1] pbx_dundi.c: Unable to load config dundi.conf
+[Jun  2 11:43:03] ERROR[1] config_options.c: Unable to load config file 'prometheus.conf'
+[Jun  2 11:43:03] NOTICE[1] app_queue.c: No queuerules.conf file found, queues will not follow penalty rules
+[Jun  2 11:43:03] NOTICE[1] app_queue.c: No call queueing config file (queues.conf), so no call queues
+[Jun  2 11:43:03] WARNING[1] loader.c: Some non-required modules failed to load.
+[Jun  2 11:43:03] WARNING[1] loader.c: Module 'res_adsi' has been loaded but may be removed in a future release.
+[Jun  2 11:43:03] WARNING[1] loader.c: Module 'app_adsiprog' has been loaded but may be removed in a future release.
+[Jun  2 11:43:03] WARNING[1] loader.c: Module 'app_getcpeid' has been loaded but may be removed in a future release.
+[Jun  2 11:43:03] ERROR[1] loader.c: Error loading module 'format_ogg_vorbis.so': libvorbisenc.so.2: cannot open shared object file: No such file or directory
+[Jun  2 11:43:03] ERROR[1] loader.c: res_odbc declined to load.
+[Jun  2 11:43:03] ERROR[1] loader.c: Declined modules which depend on res_odbc: res_config_odbc, cel_odbc, cdr_odbc, cdr_adaptive_odbc, func_odbc
+[Jun  2 11:43:03] ERROR[1] loader.c: res_config_pgsql declined to load.
+[Jun  2 11:43:03] ERROR[1] loader.c: res_stun_monitor declined to load.
+[Jun  2 11:43:03] ERROR[1] loader.c: res_phoneprov declined to load.
+[Jun  2 11:43:03] ERROR[1] loader.c: Declined modules which depend on res_phoneprov: res_pjsip_phoneprov_provider
+[Jun  2 11:43:03] ERROR[1] loader.c: chan_iax2 declined to load.
+[Jun  2 11:43:03] ERROR[1] loader.c: chan_console declined to load.
+[Jun  2 11:43:03] ERROR[1] loader.c: res_hep declined to load.
+[Jun  2 11:43:03] ERROR[1] loader.c: Declined modules which depend on res_hep: res_hep_rtcp, res_hep_pjsip
+[Jun  2 11:43:03] ERROR[1] loader.c: res_pjsip_notify declined to load.
+[Jun  2 11:43:03] ERROR[1] loader.c: res_calendar declined to load.
+[Jun  2 11:43:03] ERROR[1] loader.c: res_parking declined to load.
+[Jun  2 11:43:03] ERROR[1] loader.c: app_agent_pool declined to load.
+[Jun  2 11:43:03] ERROR[1] loader.c: app_confbridge declined to load.
+[Jun  2 11:43:03] ERROR[1] loader.c: Declined modules which depend on app_confbridge: app_page
+[Jun  2 11:43:03] ERROR[1] loader.c: cdr_manager declined to load.
+[Jun  2 11:43:03] ERROR[1] loader.c: cdr_pgsql declined to load.
+[Jun  2 11:43:03] ERROR[1] loader.c: cel_manager declined to load.
+[Jun  2 11:43:03] ERROR[1] loader.c: cdr_csv declined to load.
+[Jun  2 11:43:03] ERROR[1] loader.c: cel_pgsql declined to load.
+[Jun  2 11:43:03] ERROR[1] loader.c: cdr_sqlite3_custom declined to load.
+[Jun  2 11:43:03] ERROR[1] loader.c: cdr_custom declined to load.
+[Jun  2 11:43:03] ERROR[1] loader.c: cel_custom declined to load.
+[Jun  2 11:43:03] ERROR[1] loader.c: cel_sqlite3_custom declined to load.
+[Jun  2 11:43:03] ERROR[1] loader.c: app_followme declined to load.
+[Jun  2 11:43:03] ERROR[1] loader.c: app_amd declined to load.
+[Jun  2 11:43:03] ERROR[1] loader.c: chan_unistim declined to load.
+[Jun  2 11:43:03] ERROR[1] loader.c: app_alarmreceiver declined to load.
+[Jun  2 11:43:03] ERROR[1] loader.c: pbx_ael declined to load.
+[Jun  2 11:43:03] ERROR[1] loader.c: pbx_dundi declined to load.
+[Jun  2 11:43:03] ERROR[1] loader.c: res_prometheus declined to load.
+[Jun  2 11:43:03] ERROR[1] loader.c: app_queue declined to load.
+[Jun  2 13:05:30] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.137:54956' (callid: UxpeLVCeS-h_3njL1ppvEA..) - No matching endpoint found
+[Jun  2 13:05:30] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.137:54956' (callid: UxpeLVCeS-h_3njL1ppvEA..) - No matching endpoint found
+[Jun  2 13:05:30] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.137:54956' (callid: UxpeLVCeS-h_3njL1ppvEA..) - Failed to authenticate
+[Jun  2 13:05:31] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.137:54956' (callid: 16JR9bjXKXCv0m8AMgeuKQ..) - No matching endpoint found
+[Jun  2 13:05:31] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.137:54956' (callid: 16JR9bjXKXCv0m8AMgeuKQ..) - No matching endpoint found
+[Jun  2 13:05:31] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.137:54956' (callid: 16JR9bjXKXCv0m8AMgeuKQ..) - Failed to authenticate
+[Jun  2 13:06:02] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.137:54956' (callid: BAJeL8W0Wf0gNLD-ns7oJw..) - No matching endpoint found
+[Jun  2 13:06:02] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.137:54956' (callid: BAJeL8W0Wf0gNLD-ns7oJw..) - No matching endpoint found
+[Jun  2 13:06:02] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.137:54956' (callid: BAJeL8W0Wf0gNLD-ns7oJw..) - Failed to authenticate
+[Jun  2 13:06:04] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.137:54956' (callid: wy8i7qDwp6IzjkHimJmmBw..) - No matching endpoint found
+[Jun  2 13:06:04] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.137:54956' (callid: wy8i7qDwp6IzjkHimJmmBw..) - No matching endpoint found
+[Jun  2 13:06:04] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.137:54956' (callid: wy8i7qDwp6IzjkHimJmmBw..) - Failed to authenticate
+[Jun  2 13:06:25] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.137:54956' (callid: FQIiWm-v5KR6cB1R7Hhslg..) - No matching endpoint found
+[Jun  2 13:06:26] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.137:54956' (callid: FQIiWm-v5KR6cB1R7Hhslg..) - No matching endpoint found
+[Jun  2 13:06:26] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.137:54956' (callid: FQIiWm-v5KR6cB1R7Hhslg..) - Failed to authenticate
+[Jun  2 13:06:26] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.137:54956' (callid: FQIiWm-v5KR6cB1R7Hhslg..) - No matching endpoint found
+[Jun  2 13:06:26] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.137:54956' (callid: FQIiWm-v5KR6cB1R7Hhslg..) - Failed to authenticate
+[Jun  2 13:06:28] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.137:54956' (callid: 6tUh5Z8Bb0QybJOyuLJDBA..) - No matching endpoint found
+[Jun  2 13:06:29] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.137:54956' (callid: 6tUh5Z8Bb0QybJOyuLJDBA..) - No matching endpoint found
+[Jun  2 13:06:29] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.137:54956' (callid: 6tUh5Z8Bb0QybJOyuLJDBA..) - Failed to authenticate
+[Jun  2 13:06:29] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.137:54956' (callid: 6tUh5Z8Bb0QybJOyuLJDBA..) - No matching endpoint found
+[Jun  2 13:06:29] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.137:54956' (callid: 6tUh5Z8Bb0QybJOyuLJDBA..) - Failed to authenticate
+[Jun  2 13:06:43] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: tN35sQNVpWaB0zhIZILPgg..) - No matching endpoint found
+[Jun  2 13:06:44] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: tN35sQNVpWaB0zhIZILPgg..) - No matching endpoint found
+[Jun  2 13:06:44] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: tN35sQNVpWaB0zhIZILPgg..) - Failed to authenticate
+[Jun  2 13:06:44] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: tN35sQNVpWaB0zhIZILPgg..) - No matching endpoint found
+[Jun  2 13:06:44] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: tN35sQNVpWaB0zhIZILPgg..) - Failed to authenticate
+[Jun  2 13:06:45] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: O7PMlYPqIjoza7Q9YrChtA..) - No matching endpoint found
+[Jun  2 13:06:45] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: O7PMlYPqIjoza7Q9YrChtA..) - No matching endpoint found
+[Jun  2 13:06:45] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: O7PMlYPqIjoza7Q9YrChtA..) - Failed to authenticate
+[Jun  2 13:06:45] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: N__rKvk19wSTCUWKylFU6Q..) - No matching endpoint found
+[Jun  2 13:06:45] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: N__rKvk19wSTCUWKylFU6Q..) - No matching endpoint found
+[Jun  2 13:06:45] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: N__rKvk19wSTCUWKylFU6Q..) - Failed to authenticate
+[Jun  2 13:06:50] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: Qw8mXSJ7ExY9nHEn8oZSPQ..) - No matching endpoint found
+[Jun  2 13:06:51] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: Qw8mXSJ7ExY9nHEn8oZSPQ..) - No matching endpoint found
+[Jun  2 13:06:51] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: Qw8mXSJ7ExY9nHEn8oZSPQ..) - Failed to authenticate
+[Jun  2 13:06:51] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: Qw8mXSJ7ExY9nHEn8oZSPQ..) - No matching endpoint found
+[Jun  2 13:06:51] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: Qw8mXSJ7ExY9nHEn8oZSPQ..) - Failed to authenticate
+[Jun  2 13:06:51] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: Qw8mXSJ7ExY9nHEn8oZSPQ..) - No matching endpoint found
+[Jun  2 13:06:51] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: Qw8mXSJ7ExY9nHEn8oZSPQ..) - Failed to authenticate
+[Jun  2 13:06:53] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: VOIFkR-y49WQJYkcaCFCXg..) - No matching endpoint found
+[Jun  2 13:06:53] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: VOIFkR-y49WQJYkcaCFCXg..) - No matching endpoint found
+[Jun  2 13:06:53] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: VOIFkR-y49WQJYkcaCFCXg..) - Failed to authenticate
+[Jun  2 13:06:53] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: qInwA2Lkb_de9_oJg_Gqow..) - No matching endpoint found
+[Jun  2 13:06:54] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: qInwA2Lkb_de9_oJg_Gqow..) - No matching endpoint found
+[Jun  2 13:06:54] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: qInwA2Lkb_de9_oJg_Gqow..) - Failed to authenticate
+[Jun  2 13:06:54] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: qInwA2Lkb_de9_oJg_Gqow..) - No matching endpoint found
+[Jun  2 13:06:54] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: qInwA2Lkb_de9_oJg_Gqow..) - Failed to authenticate
+[Jun  2 13:06:55] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: q5xwFKFFY98QL5acSxLBvw..) - No matching endpoint found
+[Jun  2 13:06:55] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: q5xwFKFFY98QL5acSxLBvw..) - No matching endpoint found
+[Jun  2 13:06:55] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: q5xwFKFFY98QL5acSxLBvw..) - Failed to authenticate
+[Jun  2 13:06:56] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: Jp-lrCE6wFROHXEYpnh4LA..) - No matching endpoint found
+[Jun  2 13:06:56] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: Jp-lrCE6wFROHXEYpnh4LA..) - No matching endpoint found
+[Jun  2 13:06:56] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: Jp-lrCE6wFROHXEYpnh4LA..) - Failed to authenticate
+[Jun  2 13:06:56] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: SxX_fPYZBQ5lD2XNAQHsig..) - No matching endpoint found
+[Jun  2 13:06:57] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: SxX_fPYZBQ5lD2XNAQHsig..) - No matching endpoint found
+[Jun  2 13:06:57] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: SxX_fPYZBQ5lD2XNAQHsig..) - Failed to authenticate
+[Jun  2 13:06:57] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: SxX_fPYZBQ5lD2XNAQHsig..) - No matching endpoint found
+[Jun  2 13:06:57] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: SxX_fPYZBQ5lD2XNAQHsig..) - Failed to authenticate
+[Jun  2 13:06:57] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: 39mEI47UTHVKDhgz1PNrxg..) - No matching endpoint found
+[Jun  2 13:06:57] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: HNxczdKdG1bibzQtJpU9Ng..) - No matching endpoint found
+[Jun  2 13:06:57] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: 39mEI47UTHVKDhgz1PNrxg..) - No matching endpoint found
+[Jun  2 13:06:57] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: 39mEI47UTHVKDhgz1PNrxg..) - Failed to authenticate
+[Jun  2 13:06:57] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: HNxczdKdG1bibzQtJpU9Ng..) - No matching endpoint found
+[Jun  2 13:06:57] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: HNxczdKdG1bibzQtJpU9Ng..) - Failed to authenticate
+[Jun  2 13:06:57] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: _x-ooDcoWChTjzJH_glfVg..) - No matching endpoint found
+[Jun  2 13:06:57] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: _x-ooDcoWChTjzJH_glfVg..) - No matching endpoint found
+[Jun  2 13:06:57] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: _x-ooDcoWChTjzJH_glfVg..) - Failed to authenticate
+[Jun  2 13:06:58] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: Z5WNbjc18ymMFQ60y6baYg..) - No matching endpoint found
+[Jun  2 13:06:58] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: Z5WNbjc18ymMFQ60y6baYg..) - No matching endpoint found
+[Jun  2 13:06:58] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: Z5WNbjc18ymMFQ60y6baYg..) - Failed to authenticate
+[Jun  2 13:06:58] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: qEMmXGufgVYAUj8xz-7fZw..) - No matching endpoint found
+[Jun  2 13:06:58] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: exdk9Z0PsUwUrFUu23GYfA..) - No matching endpoint found
+[Jun  2 13:06:58] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: qEMmXGufgVYAUj8xz-7fZw..) - No matching endpoint found
+[Jun  2 13:06:58] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: qEMmXGufgVYAUj8xz-7fZw..) - Failed to authenticate
+[Jun  2 13:06:58] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: exdk9Z0PsUwUrFUu23GYfA..) - No matching endpoint found
+[Jun  2 13:06:58] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: exdk9Z0PsUwUrFUu23GYfA..) - Failed to authenticate
+[Jun  2 13:06:58] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: pDUE73KWqJjV5JrfBU4tLg..) - No matching endpoint found
+[Jun  2 13:06:58] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: pDUE73KWqJjV5JrfBU4tLg..) - No matching endpoint found
+[Jun  2 13:06:58] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: pDUE73KWqJjV5JrfBU4tLg..) - Failed to authenticate
+[Jun  2 13:06:59] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: sbprgsVMSUEbpaCctZ9NPg..) - No matching endpoint found
+[Jun  2 13:06:59] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: sbprgsVMSUEbpaCctZ9NPg..) - No matching endpoint found
+[Jun  2 13:06:59] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: sbprgsVMSUEbpaCctZ9NPg..) - Failed to authenticate
+[Jun  2 13:06:59] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: lFOFB9OHT-xcuWy6KwtkGw..) - No matching endpoint found
+[Jun  2 13:06:59] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: lFOFB9OHT-xcuWy6KwtkGw..) - No matching endpoint found
+[Jun  2 13:06:59] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: lFOFB9OHT-xcuWy6KwtkGw..) - Failed to authenticate
+[Jun  2 13:07:00] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: kBT4Qul_LkqYBt6fdOMIdA..) - No matching endpoint found
+[Jun  2 13:07:00] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: kBT4Qul_LkqYBt6fdOMIdA..) - No matching endpoint found
+[Jun  2 13:07:00] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: kBT4Qul_LkqYBt6fdOMIdA..) - Failed to authenticate
+[Jun  2 13:07:00] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: 1snzHnO5UmeQ2tOFuMOv9w..) - No matching endpoint found
+[Jun  2 13:07:00] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: 1snzHnO5UmeQ2tOFuMOv9w..) - No matching endpoint found
+[Jun  2 13:07:00] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: 1snzHnO5UmeQ2tOFuMOv9w..) - Failed to authenticate
+[Jun  2 13:07:02] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: Ee62uQmqAk9wse-V4amAUg..) - No matching endpoint found
+[Jun  2 13:07:02] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: Ee62uQmqAk9wse-V4amAUg..) - No matching endpoint found
+[Jun  2 13:07:02] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: Ee62uQmqAk9wse-V4amAUg..) - Failed to authenticate
+[Jun  2 13:07:07] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: wXfL8twKnJDKNPIR2Rt4Pg..) - No matching endpoint found
+[Jun  2 13:07:07] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: wXfL8twKnJDKNPIR2Rt4Pg..) - No matching endpoint found
+[Jun  2 13:07:07] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: wXfL8twKnJDKNPIR2Rt4Pg..) - Failed to authenticate
+[Jun  2 13:07:08] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: 7bujxIhAGLFobnCnRKDjeA..) - No matching endpoint found
+[Jun  2 13:07:08] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: 7bujxIhAGLFobnCnRKDjeA..) - No matching endpoint found
+[Jun  2 13:07:08] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: 7bujxIhAGLFobnCnRKDjeA..) - Failed to authenticate
+[Jun  2 13:07:10] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: 3hoFzryuui1d64uzdaScnw..) - No matching endpoint found
+[Jun  2 13:07:10] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: 3hoFzryuui1d64uzdaScnw..) - No matching endpoint found
+[Jun  2 13:07:10] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: 3hoFzryuui1d64uzdaScnw..) - Failed to authenticate
+[Jun  2 13:07:13] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: Fas2HdEpy-I7ojKWW86YGQ..) - No matching endpoint found
+[Jun  2 13:07:13] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: Fas2HdEpy-I7ojKWW86YGQ..) - No matching endpoint found
+[Jun  2 13:07:13] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: Fas2HdEpy-I7ojKWW86YGQ..) - Failed to authenticate
+[Jun  2 13:07:18] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: bLNUqtrosOjUyfVAg4xnkg..) - No matching endpoint found
+[Jun  2 13:07:19] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: bLNUqtrosOjUyfVAg4xnkg..) - No matching endpoint found
+[Jun  2 13:07:19] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: bLNUqtrosOjUyfVAg4xnkg..) - Failed to authenticate
+[Jun  2 13:07:19] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: bLNUqtrosOjUyfVAg4xnkg..) - No matching endpoint found
+[Jun  2 13:07:19] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: bLNUqtrosOjUyfVAg4xnkg..) - Failed to authenticate
+[Jun  2 13:07:23] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: I1kich-kf9jUhjRkh7OCtg..) - No matching endpoint found
+[Jun  2 13:07:23] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: I1kich-kf9jUhjRkh7OCtg..) - No matching endpoint found
+[Jun  2 13:07:23] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: I1kich-kf9jUhjRkh7OCtg..) - Failed to authenticate
+[Jun  2 13:07:25] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: vM5xLtBtYSMvuYR4iJHHmA..) - No matching endpoint found
+[Jun  2 13:07:25] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: vM5xLtBtYSMvuYR4iJHHmA..) - No matching endpoint found
+[Jun  2 13:07:25] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: vM5xLtBtYSMvuYR4iJHHmA..) - Failed to authenticate
+[Jun  2 13:07:28] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: oCkQ_ZnhUSRJonL2E1MZew..) - No matching endpoint found
+[Jun  2 13:07:28] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: oCkQ_ZnhUSRJonL2E1MZew..) - No matching endpoint found
+[Jun  2 13:07:28] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: oCkQ_ZnhUSRJonL2E1MZew..) - Failed to authenticate
+[Jun  2 13:07:34] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: QRGYvVEAAOB5zSax-QyG6A..) - No matching endpoint found
+[Jun  2 13:07:34] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: QRGYvVEAAOB5zSax-QyG6A..) - No matching endpoint found
+[Jun  2 13:07:34] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: QRGYvVEAAOB5zSax-QyG6A..) - Failed to authenticate
+[Jun  2 13:07:44] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: HFqN7mp_L-X359Rh8l2t7Q..) - No matching endpoint found
+[Jun  2 13:07:44] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: HFqN7mp_L-X359Rh8l2t7Q..) - No matching endpoint found
+[Jun  2 13:07:44] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: HFqN7mp_L-X359Rh8l2t7Q..) - Failed to authenticate
+[Jun  2 13:08:06] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: dEb_H3fs_z8e3qVkqz4Y8Q..) - No matching endpoint found
+[Jun  2 13:08:06] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: dEb_H3fs_z8e3qVkqz4Y8Q..) - No matching endpoint found
+[Jun  2 13:08:06] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: dEb_H3fs_z8e3qVkqz4Y8Q..) - Failed to authenticate
+[Jun  2 13:08:16] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: znlMfSDJxrpG4Ij2_hJg0A..) - No matching endpoint found
+[Jun  2 13:08:16] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: znlMfSDJxrpG4Ij2_hJg0A..) - No matching endpoint found
+[Jun  2 13:08:16] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: znlMfSDJxrpG4Ij2_hJg0A..) - Failed to authenticate
+[Jun  2 13:08:46] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: e8tDwGVZFna_HtJSFSCApw..) - No matching endpoint found
+[Jun  2 13:09:12] ERROR[53] chan_pjsip.c: Unable to create PJSIP channel - endpoint '1002' was not found
+[Jun  2 13:09:12] NOTICE[6660][C-00000001] app_dial.c: Unable to create channel of type 'PJSIP' (cause 3 - No route to destination)
+[Jun  2 13:09:34] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: R2EFzMRUslIUHqQxo8aT2w..) - No matching endpoint found
+[Jun  2 13:21:40] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: zLwMXI-PojX9FEdNSuJd_Q..) - No matching endpoint found
+[Jun  2 13:21:40] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: zLwMXI-PojX9FEdNSuJd_Q..) - No matching endpoint found
+[Jun  2 13:21:40] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: zLwMXI-PojX9FEdNSuJd_Q..) - Failed to authenticate
+[Jun  2 13:21:41] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: K4Ue8crriucQFhkyd3f_Zw..) - No matching endpoint found
+[Jun  2 13:21:41] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: K4Ue8crriucQFhkyd3f_Zw..) - No matching endpoint found
+[Jun  2 13:21:41] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: K4Ue8crriucQFhkyd3f_Zw..) - Failed to authenticate
+[Jun  2 13:21:42] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: -l9TIYh9m7gheeVkTZ3d6A..) - No matching endpoint found
+[Jun  2 13:21:42] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: -l9TIYh9m7gheeVkTZ3d6A..) - No matching endpoint found
+[Jun  2 13:21:42] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: -l9TIYh9m7gheeVkTZ3d6A..) - Failed to authenticate
+[Jun  2 13:21:43] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: wDft0QKQvo4RUgAwlXiYvg..) - No matching endpoint found
+[Jun  2 13:21:43] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: wDft0QKQvo4RUgAwlXiYvg..) - No matching endpoint found
+[Jun  2 13:21:43] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: wDft0QKQvo4RUgAwlXiYvg..) - Failed to authenticate
+[Jun  2 13:21:44] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: DUoHjklGNbKtmoZ3RA11hw..) - No matching endpoint found
+[Jun  2 13:21:44] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: DUoHjklGNbKtmoZ3RA11hw..) - No matching endpoint found
+[Jun  2 13:21:44] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: DUoHjklGNbKtmoZ3RA11hw..) - Failed to authenticate
+[Jun  2 13:21:45] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: K2ArH_nYCdqWzkophsfzXg..) - No matching endpoint found
+[Jun  2 13:21:45] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: K2ArH_nYCdqWzkophsfzXg..) - No matching endpoint found
+[Jun  2 13:21:45] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: K2ArH_nYCdqWzkophsfzXg..) - Failed to authenticate
+[Jun  2 13:21:45] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: gY14P-957OZOIdIXmOn79A..) - No matching endpoint found
+[Jun  2 13:21:45] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: gY14P-957OZOIdIXmOn79A..) - No matching endpoint found
+[Jun  2 13:21:45] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: gY14P-957OZOIdIXmOn79A..) - Failed to authenticate
+[Jun  2 13:21:46] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: 9T43iwPLuCfn-tqkT-XCAg..) - No matching endpoint found
+[Jun  2 13:21:46] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: 9T43iwPLuCfn-tqkT-XCAg..) - No matching endpoint found
+[Jun  2 13:21:46] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: 9T43iwPLuCfn-tqkT-XCAg..) - Failed to authenticate
+[Jun  2 13:21:46] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: tHZ8vKY-HjDA2MkTNShf0Q..) - No matching endpoint found
+[Jun  2 13:21:46] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: tHZ8vKY-HjDA2MkTNShf0Q..) - No matching endpoint found
+[Jun  2 13:21:46] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: tHZ8vKY-HjDA2MkTNShf0Q..) - Failed to authenticate
+[Jun  2 13:21:46] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: d9HeD2Dtmc3yOZe3GZw0DA..) - No matching endpoint found
+[Jun  2 13:21:46] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: d9HeD2Dtmc3yOZe3GZw0DA..) - No matching endpoint found
+[Jun  2 13:21:46] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: d9HeD2Dtmc3yOZe3GZw0DA..) - Failed to authenticate
+[Jun  2 13:21:47] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: JU5XrlCTuurw0DnQKXrvGA..) - No matching endpoint found
+[Jun  2 13:21:47] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: JU5XrlCTuurw0DnQKXrvGA..) - No matching endpoint found
+[Jun  2 13:21:47] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: JU5XrlCTuurw0DnQKXrvGA..) - Failed to authenticate
+[Jun  2 13:21:47] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: 4Gm0hqTcFVu1hUAcRhsXmw..) - No matching endpoint found
+[Jun  2 13:21:47] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: 4Gm0hqTcFVu1hUAcRhsXmw..) - No matching endpoint found
+[Jun  2 13:21:47] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: 4Gm0hqTcFVu1hUAcRhsXmw..) - Failed to authenticate
+[Jun  2 13:21:48] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: og-Y032xcQ5eQN2tqs6eyA..) - No matching endpoint found
+[Jun  2 13:21:48] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: og-Y032xcQ5eQN2tqs6eyA..) - No matching endpoint found
+[Jun  2 13:21:48] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: og-Y032xcQ5eQN2tqs6eyA..) - Failed to authenticate
+[Jun  2 13:21:49] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: L_SEtAcvuM0anoWJ4013og..) - No matching endpoint found
+[Jun  2 13:21:50] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: L_SEtAcvuM0anoWJ4013og..) - No matching endpoint found
+[Jun  2 13:21:50] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: L_SEtAcvuM0anoWJ4013og..) - Failed to authenticate
+[Jun  2 13:21:50] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: L_SEtAcvuM0anoWJ4013og..) - No matching endpoint found
+[Jun  2 13:21:50] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: L_SEtAcvuM0anoWJ4013og..) - Failed to authenticate
+[Jun  2 13:21:51] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: Fsin0TSUqShFFu_I6_aKGQ..) - No matching endpoint found
+[Jun  2 13:21:51] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: Fsin0TSUqShFFu_I6_aKGQ..) - No matching endpoint found
+[Jun  2 13:21:51] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: Fsin0TSUqShFFu_I6_aKGQ..) - Failed to authenticate
+[Jun  2 13:21:54] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: qBCLHuigSOmdj0BI59gEig..) - No matching endpoint found
+[Jun  2 13:21:54] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: qBCLHuigSOmdj0BI59gEig..) - No matching endpoint found
+[Jun  2 13:21:54] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: qBCLHuigSOmdj0BI59gEig..) - Failed to authenticate
+[Jun  2 13:22:00] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: Q5rwOjgs0uy7Zp7u2WW26g..) - No matching endpoint found
+[Jun  2 13:22:00] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: Q5rwOjgs0uy7Zp7u2WW26g..) - No matching endpoint found
+[Jun  2 13:22:00] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: Q5rwOjgs0uy7Zp7u2WW26g..) - Failed to authenticate
+[Jun  2 13:22:10] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: VFAOtEhqJITM8mRHuBzNVQ..) - No matching endpoint found
+[Jun  2 13:22:10] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: VFAOtEhqJITM8mRHuBzNVQ..) - No matching endpoint found
+[Jun  2 13:22:10] NOTICE[53] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"1002" <sip:1002@192.168.30.163>' failed for '192.168.30.149:54956' (callid: VFAOtEhqJITM8mRHuBzNVQ..) - Failed to authenticate
+[Jun  2 13:22:25] ERROR[53] res_pjsip_config_wizard.c: Unable to load config file 'pjsip_wizard.conf'
+[Jun  2 13:22:25] ERROR[53] res_pjsip_config_wizard.c: Unable to load config file 'pjsip_wizard.conf'
+[Jun  2 13:22:25] ERROR[53] res_pjsip_config_wizard.c: Unable to load config file 'pjsip_wizard.conf'
+[Jun  2 13:22:25] ERROR[53] res_pjsip_config_wizard.c: Unable to load config file 'pjsip_wizard.conf'
+[Jun  2 13:22:25] NOTICE[53] sorcery.c: Type 'system' is not reloadable, maintaining previous values
+[Jun  2 13:22:25] ERROR[53] res_pjsip_config_wizard.c: Unable to load config file 'pjsip_wizard.conf'
+[Jun  2 13:22:31] Asterisk 22.9.0 built by root @ buildkitsandbox on a aarch64 running Linux on 2026-05-27 09:07:27 UTC
+[Jun  2 13:22:31] ERROR[7687] res_config_ldap.c: Cannot load configuration file: res_ldap.conf
+[Jun  2 13:22:31] NOTICE[7687] res_config_ldap.c: Cannot reload LDAP RealTime driver.
+[Jun  2 13:22:31] ERROR[7687] res_config_sqlite3.c: Missing config file 'res_config_sqlite3.conf'
+[Jun  2 13:22:31] ERROR[7687] res_pjsip_config_wizard.c: Unable to load config file 'pjsip_wizard.conf'
+[Jun  2 13:22:31] ERROR[7687] res_pjsip_config_wizard.c: Unable to load config file 'pjsip_wizard.conf'
+[Jun  2 13:22:31] ERROR[7687] res_pjsip_config_wizard.c: Unable to load config file 'pjsip_wizard.conf'
+[Jun  2 13:22:31] ERROR[7687] res_pjsip_config_wizard.c: Unable to load config file 'pjsip_wizard.conf'
+[Jun  2 13:22:31] NOTICE[7687] sorcery.c: Type 'system' is not reloadable, maintaining previous values
+[Jun  2 13:22:31] ERROR[7687] res_pjsip_config_wizard.c: Unable to load config file 'pjsip_wizard.conf'
+[Jun  2 13:22:31] ERROR[7687] config_options.c: Unable to load config file 'statsd.conf'
+[Jun  2 13:22:31] ERROR[7687] config_options.c: Unable to load config file 'cdr.conf'
+[Jun  2 13:22:31] ERROR[7687] config_options.c: Unable to load config file 'cel.conf'
+[Jun  2 13:22:31] ERROR[7687] config_options.c: Unable to load config file 'features.conf'
+[Jun  2 13:22:31] WARNING[7687] indications.c: Can't find indications config file indications.conf.
+[Jun  2 13:22:31] ERROR[7687] config_options.c: Unable to load config file 'acl.conf'
+[Jun  2 13:22:31] WARNING[7687] named_acl.c: Could not reload ACL config
+[Jun  2 13:22:31] NOTICE[7687] manager.c: Unable to open AMI configuration manager.conf, or configuration is invalid.
+[Jun  2 13:22:31] ERROR[7687] config_options.c: Unable to load config file 'udptl.conf'
+[Jun  2 13:22:31] ERROR[7687] res_sorcery_config.c: Unable to load config file 'geolocation.conf'
+[Jun  2 13:22:31] ERROR[7687] res_sorcery_config.c: Unable to load config file 'geolocation.conf'
+[Jun  2 13:22:31] ERROR[7687] res_sorcery_config.c: Unable to load config file 'pjproject.conf'
+[Jun  2 13:22:31] ERROR[53] res_pjsip_config_wizard.c: Unable to load config file 'pjsip_wizard.conf'
+[Jun  2 13:22:31] ERROR[53] res_pjsip_config_wizard.c: Unable to load config file 'pjsip_wizard.conf'
+[Jun  2 13:22:31] ERROR[53] res_pjsip_config_wizard.c: Unable to load config file 'pjsip_wizard.conf'
+[Jun  2 13:22:31] ERROR[53] res_pjsip_config_wizard.c: Unable to load config file 'pjsip_wizard.conf'
+[Jun  2 13:22:31] NOTICE[53] sorcery.c: Type 'system' is not reloadable, maintaining previous values
+[Jun  2 13:22:31] ERROR[53] res_pjsip_config_wizard.c: Unable to load config file 'pjsip_wizard.conf'
+[Jun  2 13:22:31] ERROR[7687] res_pjsip_config_wizard.c: Unable to load config file 'pjsip_wizard.conf'
+[Jun  2 13:22:31] ERROR[7687] res_sorcery_config.c: Unable to load config file 'aeap.conf'
+[Jun  2 13:22:31] ERROR[7687] res_sorcery_config.c: Unable to load config file 'websocket_client.conf'
+[Jun  2 13:22:31] NOTICE[7687] res_smdi.c: Unable to reload config smdi.conf: SMDI untouched
+[Jun  2 13:22:31] WARNING[7687] res_smdi.c: No SMDI interfaces were specified to listen on, not starting SDMI listener.
+[Jun  2 13:22:31] ERROR[7687] res_sorcery_config.c: Unable to load config file 'chan_websocket.conf'
+[Jun  2 13:22:31] ERROR[36] res_sorcery_config.c: Unable to load config file 'ari.conf'
+[Jun  2 13:22:31] NOTICE[7687] res_fax.c: Configuration file 'res_fax.conf' not found, not changing options.
+[Jun  2 13:22:31] ERROR[7687] res_sorcery_config.c: Unable to load config file 'websocket_client.conf'
+[Jun  2 13:22:31] ERROR[7687] res_sorcery_config.c: Unable to load config file 'ari.conf'
+[Jun  2 13:22:31] ERROR[7687] res_sorcery_config.c: Unable to load config file 'ari.conf'
+[Jun  2 13:22:31] ERROR[7687] res_sorcery_config.c: Unable to load config file 'ari.conf'
+[Jun  2 13:22:31] ERROR[7687] res_pjsip_config_wizard.c: Unable to load config file 'pjsip_wizard.conf'
+[Jun  2 13:22:31] ERROR[36] res_sorcery_config.c: Unable to load config file 'ari.conf'
+[Jun  2 13:22:31] WARNING[7687] app_voicemail.c: Failed to load configuration file.
+[Jun  2 13:22:31] WARNING[7687] app_minivm.c: Failed to load configuration file. Module activated with default settings.
+[Jun  2 13:22:31] ERROR[7687] res_clialiases.c: res_clialiases configuration file 'cli_aliases.conf' not found
+[Jun  2 13:22:32] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:54956)
+[Jun  2 13:22:42] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:54956)
+[Jun  2 13:22:44] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:54956)
+[Jun  2 13:22:46] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:54956)
+[Jun  2 13:22:49] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:54956)
+[Jun  2 13:22:51] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:54956)
+[Jun  2 13:22:53] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:54956)
+[Jun  2 13:22:59] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:54956)
+[Jun  2 13:23:04] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:49505)
+[Jun  2 13:23:05] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:49505)
+[Jun  2 13:23:08] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:49505)
+[Jun  2 13:23:10] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:49505)
+[Jun  2 13:23:10] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:49505)
+[Jun  2 13:23:10] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:49505)
+[Jun  2 13:23:10] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:49505)
+[Jun  2 13:23:10] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:49505)
+[Jun  2 13:23:10] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:49505)
+[Jun  2 13:23:10] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:49505)
+[Jun  2 13:23:11] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:49505)
+[Jun  2 13:23:12] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:49505)
+[Jun  2 13:23:12] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:49505)
+[Jun  2 13:23:12] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:49505)
+[Jun  2 13:23:15] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:49505)
+[Jun  2 13:23:19] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:49505)
+[Jun  2 13:23:28] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:49505)
+[Jun  2 13:23:45] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:49505)
+[Jun  2 13:23:47] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:49505)
+[Jun  2 13:23:52] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:49505)
+[Jun  2 13:24:01] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:49505)
+[Jun  2 13:24:19] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:49505)
+[Jun  2 13:24:20] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:49505)
+[Jun  2 13:24:25] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:49505)
+[Jun  2 13:24:33] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:49505)
+[Jun  2 13:25:36] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:49505)
+[Jun  2 13:25:42] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:49505)
+[Jun  2 13:25:43] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:49505)
+[Jun  2 13:25:46] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:49505)
+[Jun  2 13:25:52] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:49505)
+[Jun  2 13:26:00] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:49505)
+[Jun  2 13:26:01] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:49505)
+[Jun  2 13:26:02] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:49505)
+[Jun  2 13:26:05] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:49505)
+[Jun  2 13:26:10] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:49505)
+[Jun  2 13:26:13] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:49505)
+[Jun  2 13:26:14] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:49505)
+[Jun  2 13:26:15] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:49505)
+[Jun  2 13:26:15] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:49505)
+[Jun  2 13:26:17] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:49505)
+[Jun  2 13:26:19] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:49505)
+[Jun  2 13:26:23] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:49505)
+[Jun  2 13:26:27] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:49505)
+[Jun  2 13:26:27] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:49505)
+[Jun  2 13:26:28] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:49505)
+[Jun  2 13:26:29] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:49505)
+[Jun  2 13:26:32] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:49505)
+[Jun  2 13:26:33] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:49505)
+[Jun  2 13:26:34] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:49505)
+[Jun  2 13:26:35] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:49505)
+[Jun  2 13:26:37] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:49505)
+[Jun  2 13:26:42] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:49505)
+[Jun  2 13:26:51] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:49505)
+[Jun  2 13:27:10] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:49505)
+[Jun  2 13:27:15] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:49505)
+[Jun  2 13:27:24] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:49505)
+[Jun  2 13:27:24] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:49505)
+[Jun  2 13:27:25] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:49505)
+[Jun  2 13:27:26] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:49505)
+[Jun  2 13:27:28] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:49505)
+[Jun  2 13:27:33] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:49505)
+[Jun  2 13:27:42] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:49505)
+[Jun  2 13:27:56] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:49505)
+[Jun  2 13:27:57] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:49505)
+[Jun  2 13:27:58] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:49505)
+[Jun  2 13:28:00] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:49505)
+[Jun  2 13:28:05] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:49505)
+[Jun  2 13:28:14] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:49505)
+[Jun  2 13:28:16] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:49505)
+[Jun  2 13:28:17] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:49505)
+[Jun  2 13:28:18] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:49505)
+[Jun  2 13:28:20] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:49505)
+[Jun  2 13:28:25] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:49505)
+[Jun  2 13:28:27] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:49505)
+[Jun  2 13:28:28] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:49505)
+[Jun  2 13:28:29] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:49505)
+[Jun  2 13:28:31] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:49505)
+[Jun  2 13:28:36] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:49505)
+[Jun  2 13:28:45] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:49505)
+[Jun  2 13:28:47] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:49505)
+[Jun  2 13:28:48] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:49505)
+[Jun  2 13:28:49] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:49505)
+[Jun  2 13:28:51] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:49505)
+[Jun  2 13:28:56] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:49505)
+[Jun  2 13:29:05] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:49505)
+[Jun  2 13:29:19] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:49505)
+[Jun  2 13:29:20] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:49505)
+[Jun  2 13:29:23] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:49505)
+[Jun  2 13:29:29] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:49505)
+[Jun  2 13:29:39] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:49505)
+[Jun  2 13:30:01] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:49505)
+[Jun  2 13:30:05] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:49505)
+[Jun  2 13:30:06] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:49505)
+[Jun  2 13:30:07] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:49505)
+[Jun  2 13:30:10] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:49505)
+[Jun  2 13:30:15] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:49505)
+[Jun  2 13:30:24] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:49505)
+[Jun  2 13:30:41] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:62667)
+[Jun  2 13:30:43] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:62667)
+[Jun  2 13:30:46] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:62667)
+[Jun  2 13:30:48] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:62667)
+[Jun  2 13:30:48] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:62667)
+[Jun  2 13:30:49] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:62667)
+[Jun  2 13:30:50] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:62667)
+[Jun  2 13:30:50] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:62667)
+[Jun  2 13:30:50] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:62667)
+[Jun  2 13:30:51] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:62667)
+[Jun  2 13:30:52] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:62667)
+[Jun  2 13:30:52] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:62667)
+[Jun  2 13:30:53] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:62667)
+[Jun  2 13:30:54] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:62667)
+[Jun  2 13:30:55] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:62667)
+[Jun  2 13:30:55] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:62667)
+[Jun  2 13:30:56] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:62667)
+[Jun  2 13:30:56] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:62667)
+[Jun  2 13:30:57] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:62667)
+[Jun  2 13:30:58] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:62667)
+[Jun  2 13:30:58] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:62667)
+[Jun  2 13:31:01] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:62667)
+[Jun  2 13:31:06] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:62667)
+[Jun  2 13:31:20] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:64806)
+[Jun  2 13:31:21] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:64806)
+[Jun  2 13:31:24] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:64806)
+[Jun  2 13:31:28] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:64806)
+[Jun  2 13:31:29] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:64806)
+[Jun  2 13:31:30] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:64806)
+[Jun  2 13:31:33] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:64806)
+[Jun  2 13:31:38] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:64806)
+[Jun  2 13:31:46] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:64806)
+[Jun  2 13:32:14] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1001' (192.168.30.55:52132)
+[Jun  2 13:32:14] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.55:52132)
+[Jun  2 13:32:14] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:64806)
+[Jun  2 13:32:16] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.55:52132)
+[Jun  2 13:32:18] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.55:52132)
+[Jun  2 13:32:19] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:64806)
+[Jun  2 13:32:20] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.55:52132)
+[Jun  2 13:32:26] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.55:52132)
+[Jun  2 13:32:36] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.55:52132)
+[Jun  2 13:32:59] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.55:52132)
+[Jun  2 13:33:09] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.55:52132)
+[Jun  2 13:33:31] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.55:52132)
+[Jun  2 13:33:41] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.55:52132)
+[Jun  2 13:33:47] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.149:64806)
+[Jun  2 13:34:03] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.55:52132)
+[Jun  2 13:34:13] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.55:52132)
+[Jun  2 13:34:36] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.55:52132)
+[Jun  2 13:34:46] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.55:52132)
+[Jun  2 13:35:08] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.55:52132)
+[Jun  2 13:35:18] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.55:52132)
+[Jun  2 13:35:40] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.55:52132)
+[Jun  2 13:35:51] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.55:52132)
+[Jun  2 13:36:12] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.55:52132)
+[Jun  2 13:36:23] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.55:52132)
+[Jun  2 13:36:45] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.55:52132)
+[Jun  2 13:36:55] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.55:52132)
+[Jun  2 13:37:17] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.55:52132)
+[Jun  2 13:37:27] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.55:52132)
+[Jun  2 13:37:49] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.55:52132)
+[Jun  2 13:38:00] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.55:52132)
+[Jun  2 13:38:22] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.55:52132)
+[Jun  2 13:38:32] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.55:52132)
+[Jun  2 13:38:54] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.55:52132)
+[Jun  2 13:39:04] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.55:52132)
+[Jun  2 13:39:26] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.55:52132)
+[Jun  2 13:39:37] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.55:52132)
+[Jun  2 13:39:59] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.55:52132)
+[Jun  2 13:40:09] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.55:52132)
+[Jun  2 13:40:31] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.55:52132)
+[Jun  2 13:40:42] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.55:52132)
+[Jun  2 13:41:03] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.55:52132)
+[Jun  2 13:41:14] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.55:52132)
+[Jun  2 13:41:36] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.55:52132)
+[Jun  2 13:41:36] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.55:41658)
+[Jun  2 13:41:41] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.55:41658)
+[Jun  2 13:41:43] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.55:41658)
+[Jun  2 13:41:46] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.55:52132)
+[Jun  2 13:42:03] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1001' (192.168.30.55:41658)
+[Jun  2 13:42:05] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1001' (192.168.30.55:41658)
+[Jun  2 13:42:08] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.55:52132)
+[Jun  2 13:42:13] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1001' (192.168.30.55:41658)
+[Jun  2 13:42:19] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.55:52132)
+[Jun  2 13:42:22] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.55:52132)
+[Jun  2 13:42:27] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.55:52132)
+[Jun  2 13:42:35] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.55:52132)
+[Jun  2 13:42:40] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1002' (192.168.30.55:52132)
+[Jun  2 13:42:46] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1001' (192.168.30.55:52132)
+[Jun  2 13:42:48] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1001' (192.168.30.55:52132)
+[Jun  2 13:42:50] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1001' (192.168.30.55:52132)
+[Jun  2 13:42:52] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1001' (192.168.30.55:52132)
+[Jun  2 13:42:59] WARNING[53] res_pjsip_registrar.c: AOR '' not found for endpoint '1001' (192.168.30.55:52132)
+[Jun  2 13:43:00] Asterisk 22.9.0 built by root @ buildkitsandbox on a aarch64 running Linux on 2026-05-27 09:07:27 UTC
+[Jun  2 13:43:00] NOTICE[1] loader.c: 340 modules will be loaded.
+[Jun  2 13:43:00] WARNING[1] res_odbc.c: Unable to load config file res_odbc.conf
+[Jun  2 13:43:00] WARNING[1] res_config_pgsql.c: Unable to load config res_pgsql.conf
+[Jun  2 13:43:00] ERROR[1] res_config_ldap.c: Cannot load configuration file: res_ldap.conf
+[Jun  2 13:43:00] ERROR[1] res_config_ldap.c: Cannot load LDAP RealTime driver.
+[Jun  2 13:43:00] ERROR[1] res_config_sqlite3.c: Missing config file 'res_config_sqlite3.conf'
+[Jun  2 13:43:00] ERROR[1] config_options.c: Unable to load config file 'statsd.conf'
+[Jun  2 13:43:00] NOTICE[1] res_statsd.c: Could not load statsd config; using defaults
+[Jun  2 13:43:00] WARNING[1] ccss.c: Could not find valid ccss.conf file. Using cc_max_requests and devstate defaults
+[Jun  2 13:43:00] ERROR[1] config_options.c: Unable to load config file 'cdr.conf'
+[Jun  2 13:43:00] NOTICE[1] cdr.c: Failed to process CDR configuration; using defaults
+[Jun  2 13:43:00] NOTICE[1] cdr.c: CDR simple logging enabled.
+[Jun  2 13:43:00] ERROR[1] config_options.c: Unable to load config file 'cel.conf'
+[Jun  2 13:43:00] NOTICE[1] cel.c: Failed to process CEL configuration; using defaults
+[Jun  2 13:43:00] ERROR[1] config_options.c: Unable to load config file 'features.conf'
+[Jun  2 13:43:00] NOTICE[1] features_config.c: Could not load features config; using defaults
+[Jun  2 13:43:00] WARNING[1] indications.c: Can't find indications config file indications.conf.
+[Jun  2 13:43:00] ERROR[1] config_options.c: Unable to load config file 'acl.conf'
+[Jun  2 13:43:00] NOTICE[1] manager.c: Unable to open AMI configuration manager.conf, or configuration is invalid.
+[Jun  2 13:43:00] ERROR[1] config_options.c: Unable to load config file 'udptl.conf'
+[Jun  2 13:43:00] NOTICE[1] udptl.c: Could not load udptl config; using defaults
+[Jun  2 13:43:00] ERROR[1] res_sorcery_config.c: Unable to load config file 'geolocation.conf'
+[Jun  2 13:43:00] ERROR[1] res_sorcery_config.c: Unable to load config file 'geolocation.conf'
+[Jun  2 13:43:00] ERROR[1] res_sorcery_config.c: Unable to load config file 'pjproject.conf'
+[Jun  2 13:43:01] ERROR[1] res_pjsip_config_wizard.c: Unable to load config file 'pjsip_wizard.conf'
+[Jun  2 13:43:01] ERROR[1] res_pjsip_config_wizard.c: Unable to load config file 'pjsip_wizard.conf'
+[Jun  2 13:43:01] ERROR[1] res_pjsip_config_wizard.c: Unable to load config file 'pjsip_wizard.conf'
+[Jun  2 13:43:01] ERROR[1] res_pjsip_config_wizard.c: Unable to load config file 'pjsip_wizard.conf'
+[Jun  2 13:43:01] WARNING[1] res_stun_monitor.c: Unable to load config res_stun_monitor.conf
+[Jun  2 13:43:01] WARNING[1] res_musiconhold.c: No music on hold classes configured, disabling music on hold.
+[Jun  2 13:43:01] ERROR[1] res_sorcery_config.c: Unable to load config file 'aeap.conf'
+[Jun  2 13:43:01] ERROR[1] res_phoneprov.c: Unable to load config phoneprov.conf
+[Jun  2 13:43:01] ERROR[1] res_phoneprov.c: Unable to load provisioning profiles.
+[Jun  2 13:43:01] ERROR[1] res_sorcery_config.c: Unable to load config file 'websocket_client.conf'
+[Jun  2 13:43:01] NOTICE[1] res_smdi.c: Unable to load config smdi.conf: SMDI disabled
+[Jun  2 13:43:01] NOTICE[1] res_smdi.c: No SMDI interfaces are available to listen on, not starting SMDI listener.
+[Jun  2 13:43:01] ERROR[1] chan_iax2.c: Unable to load config iax.conf
+[Jun  2 13:43:01] NOTICE[1] chan_console.c: Unable to open configuration file console.conf!
+[Jun  2 13:43:01] ERROR[1] res_sorcery_config.c: Unable to load config file 'chan_websocket.conf'
+[Jun  2 13:43:01] ERROR[1] config_options.c: Unable to load config file 'hep.conf'
+[Jun  2 13:43:01] NOTICE[1] res_fax.c: Configuration file 'res_fax.conf' not found, using default options.
+[Jun  2 13:43:01] ERROR[1] res_sorcery_config.c: Unable to load config file 'ari.conf'
+[Jun  2 13:43:01] ERROR[1] res_sorcery_config.c: Unable to load config file 'ari.conf'
+[Jun  2 13:43:01] ERROR[1] res_sorcery_config.c: Unable to load config file 'ari.conf'
+[Jun  2 13:43:01] ERROR[1] res_pjsip_config_wizard.c: Unable to load config file 'pjsip_wizard.conf'
+[Jun  2 13:43:01] ERROR[1] config_options.c: Unable to load config file 'pjsip_notify.conf'
+[Jun  2 13:43:01] ERROR[1] res_calendar.c: Unable to load config calendar.conf
+[Jun  2 13:43:01] ERROR[1] config_options.c: Unable to load config file 'res_parking.conf'
+[Jun  2 13:43:01] ERROR[1] config_options.c: Unable to load config file 'agents.conf'
+[Jun  2 13:43:01] ERROR[1] app_agent_pool.c: Unable to load config. Not loading module.
+[Jun  2 13:43:01] ERROR[1] config_options.c: Unable to load config file 'confbridge.conf'
+[Jun  2 13:43:01] ERROR[1] app_confbridge.c: Unable to load config. Not loading module.
+[Jun  2 13:43:01] WARNING[1] cdr_manager.c: Failed to load configuration file. Module not activated.
+[Jun  2 13:43:01] WARNING[1] cdr_pgsql.c: Unable to load config for PostgreSQL CDR's: cdr_pgsql.conf
+[Jun  2 13:43:01] WARNING[1] cel_manager.c: Failed to load configuration file. CEL manager Module not activated.
+[Jun  2 13:43:01] WARNING[1] cdr_csv.c: unable to load config: cdr.conf
+[Jun  2 13:43:01] WARNING[1] cel_pgsql.c: Unable to load config for PostgreSQL CEL's: cel_pgsql.conf
+[Jun  2 13:43:01] ERROR[1] cdrel_custom/config.c: Unable to load cdr_sqlite3_custom.conf. Not logging CDRs to custom database
+[Jun  2 13:43:01] ERROR[1] cdrel_custom/config.c: Unable to load cdr_custom.conf. Not logging CDRs to custom files
+[Jun  2 13:43:01] ERROR[1] cdrel_custom/config.c: Unable to load cel_custom.conf. Not logging CELs to custom files
+[Jun  2 13:43:01] ERROR[1] cdrel_custom/config.c: Unable to load cel_sqlite3_custom.conf. Not logging CELs to custom database
+[Jun  2 13:43:01] WARNING[1] app_voicemail.c: Failed to load configuration file.
+[Jun  2 13:43:01] WARNING[1] app_minivm.c: Failed to load configuration file. Module activated with default settings.
+[Jun  2 13:43:01] WARNING[1] app_followme.c: No follow me config file (followme.conf), so no follow me
+[Jun  2 13:43:01] ERROR[1] config_options.c: Unable to load config file 'res_http_media_cache.conf'
+[Jun  2 13:43:01] NOTICE[1] res_http_media_cache.c: Could not load res_http_media_cache config; using defaults
+[Jun  2 13:43:01] ERROR[1] app_amd.c: Configuration file amd.conf missing.
+[Jun  2 13:43:01] ERROR[1] chan_unistim.c: Unable to load config unistim.conf
+[Jun  2 13:43:01] ERROR[1] res_clialiases.c: res_clialiases configuration file 'cli_aliases.conf' not found
+[Jun  2 13:43:01] NOTICE[1] pbx_ael.c: File /etc/asterisk/extensions.ael not found; AEL declining load
+[Jun  2 13:43:01] ERROR[1] pbx_dundi.c: Unable to load config dundi.conf
+[Jun  2 13:43:01] ERROR[1] config_options.c: Unable to load config file 'prometheus.conf'
+[Jun  2 13:43:01] NOTICE[1] app_queue.c: No queuerules.conf file found, queues will not follow penalty rules
+[Jun  2 13:43:01] NOTICE[1] app_queue.c: No call queueing config file (queues.conf), so no call queues
+[Jun  2 13:43:01] WARNING[1] loader.c: Some non-required modules failed to load.
+[Jun  2 13:43:01] WARNING[1] loader.c: Module 'res_adsi' has been loaded but may be removed in a future release.
+[Jun  2 13:43:01] WARNING[1] loader.c: Module 'app_adsiprog' has been loaded but may be removed in a future release.
+[Jun  2 13:43:01] WARNING[1] loader.c: Module 'app_getcpeid' has been loaded but may be removed in a future release.
+[Jun  2 13:43:01] ERROR[1] loader.c: Error loading module 'format_ogg_vorbis.so': libvorbisenc.so.2: cannot open shared object file: No such file or directory
+[Jun  2 13:43:01] ERROR[1] loader.c: res_odbc declined to load.
+[Jun  2 13:43:01] ERROR[1] loader.c: Declined modules which depend on res_odbc: res_config_odbc, cel_odbc, cdr_odbc, cdr_adaptive_odbc, func_odbc
+[Jun  2 13:43:01] ERROR[1] loader.c: res_config_pgsql declined to load.
+[Jun  2 13:43:01] ERROR[1] loader.c: res_stun_monitor declined to load.
+[Jun  2 13:43:01] ERROR[1] loader.c: res_phoneprov declined to load.
+[Jun  2 13:43:01] ERROR[1] loader.c: Declined modules which depend on res_phoneprov: res_pjsip_phoneprov_provider
+[Jun  2 13:43:01] ERROR[1] loader.c: chan_iax2 declined to load.
+[Jun  2 13:43:01] ERROR[1] loader.c: chan_console declined to load.
+[Jun  2 13:43:01] ERROR[1] loader.c: res_hep declined to load.
+[Jun  2 13:43:01] ERROR[1] loader.c: Declined modules which depend on res_hep: res_hep_rtcp, res_hep_pjsip
+[Jun  2 13:43:01] ERROR[1] loader.c: res_pjsip_notify declined to load.
+[Jun  2 13:43:01] ERROR[1] loader.c: res_calendar declined to load.
+[Jun  2 13:43:01] ERROR[1] loader.c: res_parking declined to load.
+[Jun  2 13:43:01] ERROR[1] loader.c: app_agent_pool declined to load.
+[Jun  2 13:43:01] ERROR[1] loader.c: app_confbridge declined to load.
+[Jun  2 13:43:01] ERROR[1] loader.c: Declined modules which depend on app_confbridge: app_page
+[Jun  2 13:43:01] ERROR[1] loader.c: cdr_manager declined to load.
+[Jun  2 13:43:01] ERROR[1] loader.c: cdr_pgsql declined to load.
+[Jun  2 13:43:01] ERROR[1] loader.c: cel_manager declined to load.
+[Jun  2 13:43:01] ERROR[1] loader.c: cdr_csv declined to load.
+[Jun  2 13:43:01] ERROR[1] loader.c: cel_pgsql declined to load.
+[Jun  2 13:43:01] ERROR[1] loader.c: cdr_sqlite3_custom declined to load.
+[Jun  2 13:43:01] ERROR[1] loader.c: cdr_custom declined to load.
+[Jun  2 13:43:01] ERROR[1] loader.c: cel_custom declined to load.
+[Jun  2 13:43:01] ERROR[1] loader.c: cel_sqlite3_custom declined to load.
+[Jun  2 13:43:01] ERROR[1] loader.c: app_followme declined to load.
+[Jun  2 13:43:01] ERROR[1] loader.c: app_amd declined to load.
+[Jun  2 13:43:01] ERROR[1] loader.c: chan_unistim declined to load.
+[Jun  2 13:43:01] ERROR[1] loader.c: app_alarmreceiver declined to load.
+[Jun  2 13:43:01] ERROR[1] loader.c: pbx_ael declined to load.
+[Jun  2 13:43:01] ERROR[1] loader.c: pbx_dundi declined to load.
+[Jun  2 13:43:01] ERROR[1] loader.c: res_prometheus declined to load.
+[Jun  2 13:43:01] ERROR[1] loader.c: app_queue declined to load.
+[Jun  2 13:43:05] WARNING[46] res_pjsip_registrar.c: AOR '' not found for endpoint '1001' (192.168.30.55:52132)
+[Jun  2 13:43:07] WARNING[46] res_pjsip_registrar.c: AOR '' not found for endpoint '1001' (192.168.30.55:52132)
+[Jun  2 13:43:08] WARNING[46] res_pjsip_registrar.c: AOR '' not found for endpoint '1001' (192.168.30.55:52132)
+[Jun  2 13:43:08] WARNING[46] res_pjsip_registrar.c: AOR '' not found for endpoint '1001' (192.168.30.55:52132)
+[Jun  2 13:43:09] WARNING[46] res_pjsip_registrar.c: AOR '' not found for endpoint '1001' (192.168.30.55:52132)
+[Jun  2 13:43:11] WARNING[46] res_pjsip_registrar.c: AOR '' not found for endpoint '1001' (192.168.30.55:52132)
+[Jun  2 13:43:12] WARNING[46] res_pjsip_registrar.c: AOR '' not found for endpoint '1001' (192.168.30.55:52132)
+[Jun  2 13:43:25] WARNING[46] res_pjsip_registrar.c: AOR '' not found for endpoint '1001' (192.168.30.55:52132)
+[Jun  2 13:43:26] WARNING[46] res_pjsip_registrar.c: AOR '' not found for endpoint '1001' (192.168.30.55:52132)
+[Jun  2 13:43:30] WARNING[46] res_pjsip_registrar.c: AOR '' not found for endpoint '1001' (192.168.30.55:52132)
+[Jun  2 13:43:30] WARNING[46] res_pjsip_registrar.c: AOR '' not found for endpoint '1001' (192.168.30.55:52132)
+[Jun  2 13:43:31] WARNING[46] res_pjsip_registrar.c: AOR '' not found for endpoint '1001' (192.168.30.55:52132)
+[Jun  2 13:43:38] WARNING[46] res_pjsip_registrar.c: AOR '' not found for endpoint '1001' (192.168.30.55:52132)
+[Jun  2 13:43:44] WARNING[46] res_pjsip_registrar.c: AOR '' not found for endpoint '1001' (192.168.30.55:52132)
+[Jun  2 13:43:47] WARNING[46] res_pjsip_registrar.c: AOR '' not found for endpoint '1001' (192.168.30.55:52132)
+[Jun  2 13:43:48] WARNING[46] res_pjsip_registrar.c: AOR '' not found for endpoint '1001' (192.168.30.55:52132)
+[Jun  2 13:43:55] WARNING[46] res_pjsip_registrar.c: AOR '' not found for endpoint '1001' (192.168.30.55:52132)
+[Jun  2 13:44:03] WARNING[46] res_pjsip_registrar.c: AOR '' not found for endpoint '1001' (192.168.30.55:52132)
+[Jun  2 13:44:05] WARNING[46] res_pjsip_registrar.c: AOR '' not found for endpoint '1001' (192.168.30.55:52132)
+[Jun  2 13:44:07] WARNING[46] res_pjsip_registrar.c: AOR '' not found for endpoint '1001' (192.168.30.55:52132)
+[Jun  2 13:44:10] WARNING[46] res_pjsip_registrar.c: AOR '' not found for endpoint '1001' (192.168.30.55:52132)
+[Jun  2 13:44:11] WARNING[46] res_pjsip_registrar.c: AOR '' not found for endpoint '1001' (192.168.30.55:52132)
+[Jun  2 13:44:15] WARNING[46] res_pjsip_registrar.c: AOR '' not found for endpoint '1001' (192.168.30.55:52132)
+[Jun  2 13:44:19] WARNING[46] res_pjsip_registrar.c: AOR '' not found for endpoint '1001' (192.168.30.55:52132)
+[Jun  2 13:44:28] NOTICE[46] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:1001@192.168.30.163>' failed for '192.168.30.55:52132' (callid: 17dSk1Uil8VJ0cvqcEu2FQ..) - Failed to authenticate
+[Jun  2 13:44:30] NOTICE[46] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:1001@192.168.30.163>' failed for '192.168.30.55:52132' (callid: rJMbcFKohMtPre2PPg00FA..) - Failed to authenticate
+[Jun  2 13:44:32] NOTICE[46] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:1001@192.168.30.163>' failed for '192.168.30.55:52132' (callid: 3AM7m9RyfLTk0bt2TbIvag..) - Failed to authenticate
+[Jun  2 13:44:34] NOTICE[46] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:1001@192.168.30.163>' failed for '192.168.30.55:52132' (callid: geg3oCg8zKKW1rA2zRZDlA..) - Failed to authenticate
+[Jun  2 13:44:39] WARNING[46] res_pjsip_registrar.c: AOR '' not found for endpoint '1001' (192.168.30.55:52132)
+[Jun  2 13:44:41] WARNING[46] res_pjsip_registrar.c: AOR '' not found for endpoint '1001' (192.168.30.55:52132)
+[Jun  2 13:44:43] WARNING[46] res_pjsip_registrar.c: AOR '' not found for endpoint '1001' (192.168.30.55:52132)
+[Jun  2 13:44:45] WARNING[46] res_pjsip_registrar.c: AOR '' not found for endpoint '1001' (192.168.30.55:52132)
+[Jun  2 13:44:52] WARNING[46] res_pjsip_registrar.c: AOR '' not found for endpoint '1001' (192.168.30.55:52132)
+[Jun  2 13:45:01] WARNING[46] res_pjsip_registrar.c: AOR '' not found for endpoint '1001' (192.168.30.55:52132)
+[Jun  2 13:45:24] WARNING[46] res_pjsip_registrar.c: AOR '' not found for endpoint '1001' (192.168.30.55:52132)
+[Jun  2 13:45:34] WARNING[46] res_pjsip_registrar.c: AOR '' not found for endpoint '1001' (192.168.30.55:52132)
+[Jun  2 13:45:56] WARNING[46] res_pjsip_registrar.c: AOR '' not found for endpoint '1001' (192.168.30.55:52132)
+[Jun  2 13:46:06] WARNING[46] res_pjsip_registrar.c: AOR '' not found for endpoint '1001' (192.168.30.55:52132)
+[Jun  2 13:46:29] WARNING[46] res_pjsip_registrar.c: AOR '' not found for endpoint '1001' (192.168.30.55:52132)
+[Jun  2 13:46:39] WARNING[46] res_pjsip_registrar.c: AOR '' not found for endpoint '1001' (192.168.30.55:52132)
+[Jun  2 13:47:01] WARNING[46] res_pjsip_registrar.c: AOR '' not found for endpoint '1001' (192.168.30.55:52132)
+[Jun  2 13:47:11] WARNING[46] res_pjsip_registrar.c: AOR '' not found for endpoint '1001' (192.168.30.55:52132)
+[Jun  2 13:47:33] WARNING[46] res_pjsip_registrar.c: AOR '' not found for endpoint '1001' (192.168.30.55:52132)
+[Jun  2 13:47:43] WARNING[46] res_pjsip_registrar.c: AOR '' not found for endpoint '1001' (192.168.30.55:52132)
+[Jun  2 13:48:06] WARNING[46] res_pjsip_registrar.c: AOR '' not found for endpoint '1001' (192.168.30.55:52132)
+[Jun  2 13:48:16] WARNING[46] res_pjsip_registrar.c: AOR '' not found for endpoint '1001' (192.168.30.55:52132)
+[Jun  2 13:48:38] WARNING[46] res_pjsip_registrar.c: AOR '' not found for endpoint '1001' (192.168.30.55:52132)
+[Jun  2 13:48:46] WARNING[46] res_pjsip_registrar.c: AOR '' not found for endpoint '1001' (192.168.30.55:52132)
+[Jun  2 13:48:48] WARNING[46] res_pjsip_registrar.c: AOR '' not found for endpoint '1001' (192.168.30.55:52132)
+[Jun  2 13:48:50] WARNING[46] res_pjsip_registrar.c: AOR '' not found for endpoint '1001' (192.168.30.55:52132)
+[Jun  2 13:48:56] WARNING[46] res_pjsip_registrar.c: AOR '' not found for endpoint '1001' (192.168.30.55:52132)
+[Jun  2 13:49:06] WARNING[46] res_pjsip_registrar.c: AOR '' not found for endpoint '1001' (192.168.30.55:52132)
+[Jun  2 13:49:11] WARNING[46] res_pjsip_registrar.c: AOR '' not found for endpoint '1001' (192.168.30.55:52132)
+[Jun  2 13:49:29] WARNING[46] res_pjsip_registrar.c: AOR '' not found for endpoint '1001' (192.168.30.55:52132)
+[Jun  2 13:49:39] WARNING[46] res_pjsip_registrar.c: AOR '' not found for endpoint '1001' (192.168.30.55:52132)
+[Jun  2 13:49:43] WARNING[46] res_pjsip_registrar.c: AOR '' not found for endpoint '1001' (192.168.30.55:52132)
+[Jun  2 13:50:01] WARNING[46] res_pjsip_registrar.c: AOR '' not found for endpoint '1001' (192.168.30.55:52132)
+[Jun  2 13:50:11] WARNING[46] res_pjsip_registrar.c: AOR '' not found for endpoint '1001' (192.168.30.55:52132)
+[Jun  2 13:50:16] WARNING[46] res_pjsip_registrar.c: AOR '' not found for endpoint '1001' (192.168.30.55:52132)
+[Jun  2 13:50:34] WARNING[46] res_pjsip_registrar.c: AOR '' not found for endpoint '1001' (192.168.30.55:52132)
+[Jun  2 13:50:44] WARNING[46] res_pjsip_registrar.c: AOR '' not found for endpoint '1001' (192.168.30.55:52132)
+[Jun  2 13:50:48] WARNING[46] res_pjsip_registrar.c: AOR '' not found for endpoint '1001' (192.168.30.55:52132)
+[Jun  2 13:51:06] WARNING[46] res_pjsip_registrar.c: AOR '' not found for endpoint '1001' (192.168.30.55:52132)
+[Jun  2 13:51:16] WARNING[46] res_pjsip_registrar.c: AOR '' not found for endpoint '1001' (192.168.30.55:52132)
+[Jun  2 13:51:20] WARNING[46] res_pjsip_registrar.c: AOR '' not found for endpoint '1001' (192.168.30.55:52132)
+[Jun  2 13:51:36] ERROR[46] res_pjsip_config_wizard.c: Unable to load config file 'pjsip_wizard.conf'
+[Jun  2 13:51:36] ERROR[46] res_pjsip_config_wizard.c: Unable to load config file 'pjsip_wizard.conf'
+[Jun  2 13:51:36] ERROR[46] res_pjsip_config_wizard.c: Unable to load config file 'pjsip_wizard.conf'
+[Jun  2 13:51:36] ERROR[46] res_pjsip_config_wizard.c: Unable to load config file 'pjsip_wizard.conf'
+[Jun  2 13:51:36] NOTICE[46] sorcery.c: Type 'system' is not reloadable, maintaining previous values
+[Jun  2 13:51:36] ERROR[46] res_pjsip_config_wizard.c: Unable to load config file 'pjsip_wizard.conf'
+[Jun  2 13:51:39] WARNING[46] res_pjsip_registrar.c: Registration attempt from endpoint '1001' (192.168.30.55:52132) to AOR '1001' will exceed max contacts of 1
+[Jun  2 13:51:48] WARNING[46] res_pjsip_registrar.c: Registration attempt from endpoint '1001' (192.168.30.55:52132) to AOR '1001' will exceed max contacts of 1
+[Jun  2 13:51:53] WARNING[46] res_pjsip_registrar.c: Registration attempt from endpoint '1001' (192.168.30.55:52132) to AOR '1001' will exceed max contacts of 1
+[Jun  2 13:52:05] WARNING[46] res_pjsip_registrar.c: Registration attempt from endpoint '1001' (192.168.30.55:52132) to AOR '1001' will exceed max contacts of 1
+[Jun  2 13:52:09] WARNING[46] res_pjsip_registrar.c: Registration attempt from endpoint '1001' (192.168.30.55:52132) to AOR '1001' will exceed max contacts of 1
+[Jun  2 13:52:11] WARNING[46] res_pjsip_registrar.c: Registration attempt from endpoint '1001' (192.168.30.55:52132) to AOR '1001' will exceed max contacts of 1
+[Jun  2 13:52:17] WARNING[46] res_pjsip_registrar.c: Registration attempt from endpoint '1001' (192.168.30.55:52132) to AOR '1001' will exceed max contacts of 1
+[Jun  2 13:52:21] WARNING[46] res_pjsip_registrar.c: Registration attempt from endpoint '1001' (192.168.30.55:52132) to AOR '1001' will exceed max contacts of 1
+[Jun  2 13:52:25] WARNING[46] res_pjsip_registrar.c: Registration attempt from endpoint '1001' (192.168.30.55:52132) to AOR '1001' will exceed max contacts of 1
+[Jun  2 13:52:28] WARNING[46] res_pjsip_registrar.c: Registration attempt from endpoint '1001' (192.168.30.55:52132) to AOR '1001' will exceed max contacts of 1
+[Jun  2 13:52:43] WARNING[46] res_pjsip_registrar.c: Registration attempt from endpoint '1001' (192.168.30.55:52132) to AOR '1001' will exceed max contacts of 1
+[Jun  2 13:52:47] WARNING[46] res_pjsip_registrar.c: Registration attempt from endpoint '1001' (192.168.30.55:52132) to AOR '1001' will exceed max contacts of 1
+[Jun  2 13:52:50] WARNING[46] res_pjsip_registrar.c: Registration attempt from endpoint '1001' (192.168.30.55:52132) to AOR '1001' will exceed max contacts of 1
+[Jun  2 13:52:53] WARNING[46] res_pjsip_registrar.c: Registration attempt from endpoint '1001' (192.168.30.55:52132) to AOR '1001' will exceed max contacts of 1
+[Jun  2 13:52:55] WARNING[46] res_pjsip_registrar.c: Registration attempt from endpoint '1001' (192.168.30.55:52132) to AOR '1001' will exceed max contacts of 1
+[Jun  2 13:52:57] WARNING[46] res_pjsip_registrar.c: Registration attempt from endpoint '1001' (192.168.30.55:52132) to AOR '1001' will exceed max contacts of 1
+[Jun  2 13:53:00] WARNING[46] res_pjsip_registrar.c: Registration attempt from endpoint '1001' (192.168.30.55:52132) to AOR '1001' will exceed max contacts of 1
+[Jun  2 13:53:06] WARNING[46] res_pjsip_registrar.c: Registration attempt from endpoint '1001' (192.168.30.55:52132) to AOR '1001' will exceed max contacts of 1
+[Jun  2 13:53:25] WARNING[46] res_pjsip_registrar.c: Registration attempt from endpoint '1001' (192.168.30.55:52132) to AOR '1001' will exceed max contacts of 1
+[Jun  2 13:53:28] WARNING[46] res_pjsip_registrar.c: Registration attempt from endpoint '1001' (192.168.30.55:52132) to AOR '1001' will exceed max contacts of 1
+[Jun  2 13:53:30] WARNING[46] res_pjsip_registrar.c: Registration attempt from endpoint '1001' (192.168.30.55:52132) to AOR '1001' will exceed max contacts of 1
+[Jun  2 13:53:32] WARNING[46] res_pjsip_registrar.c: Registration attempt from endpoint '1001' (192.168.30.55:52132) to AOR '1001' will exceed max contacts of 1
+[Jun  2 13:53:38] WARNING[46] res_pjsip_registrar.c: Registration attempt from endpoint '1001' (192.168.30.55:52132) to AOR '1001' will exceed max contacts of 1
+[Jun  2 13:53:58] WARNING[46] res_pjsip_registrar.c: Registration attempt from endpoint '1001' (192.168.30.55:52132) to AOR '1001' will exceed max contacts of 1
+[Jun  2 13:54:00] WARNING[46] res_pjsip_registrar.c: Registration attempt from endpoint '1001' (192.168.30.55:52132) to AOR '1001' will exceed max contacts of 1
+[Jun  2 13:54:02] WARNING[46] res_pjsip_registrar.c: Registration attempt from endpoint '1001' (192.168.30.55:52132) to AOR '1001' will exceed max contacts of 1
+[Jun  2 13:54:04] WARNING[46] res_pjsip_registrar.c: Registration attempt from endpoint '1001' (192.168.30.55:52132) to AOR '1001' will exceed max contacts of 1
+[Jun  2 13:54:11] WARNING[46] res_pjsip_registrar.c: Registration attempt from endpoint '1001' (192.168.30.55:52132) to AOR '1001' will exceed max contacts of 1
+[Jun  2 13:54:31] WARNING[46] res_pjsip_registrar.c: Registration attempt from endpoint '1001' (192.168.30.55:52132) to AOR '1001' will exceed max contacts of 1
+[Jun  2 13:54:32] WARNING[46] res_pjsip_registrar.c: Registration attempt from endpoint '1001' (192.168.30.55:52132) to AOR '1001' will exceed max contacts of 1
+[Jun  2 13:54:34] WARNING[46] res_pjsip_registrar.c: Registration attempt from endpoint '1001' (192.168.30.55:52132) to AOR '1001' will exceed max contacts of 1
+[Jun  2 13:54:37] WARNING[46] res_pjsip_registrar.c: Registration attempt from endpoint '1001' (192.168.30.55:52132) to AOR '1001' will exceed max contacts of 1
+[Jun  2 13:54:43] WARNING[46] res_pjsip_registrar.c: Registration attempt from endpoint '1001' (192.168.30.55:52132) to AOR '1001' will exceed max contacts of 1
+[Jun  2 13:55:00] WARNING[46] res_pjsip_registrar.c: Registration attempt from endpoint '1002' (192.168.30.149:64806) to AOR '1002' will exceed max contacts of 1
+[Jun  2 13:55:03] WARNING[46] res_pjsip_registrar.c: Registration attempt from endpoint '1002' (192.168.30.149:64806) to AOR '1002' will exceed max contacts of 1
+[Jun  2 13:55:05] WARNING[46] res_pjsip_registrar.c: Registration attempt from endpoint '1002' (192.168.30.149:64806) to AOR '1002' will exceed max contacts of 1
+[Jun  2 13:55:08] WARNING[46] res_pjsip_registrar.c: Registration attempt from endpoint '1002' (192.168.30.149:64806) to AOR '1002' will exceed max contacts of 1
+[Jun  2 13:55:13] WARNING[46] res_pjsip_registrar.c: Registration attempt from endpoint '1002' (192.168.30.149:64806) to AOR '1002' will exceed max contacts of 1
+[Jun  2 13:55:24] WARNING[46] res_pjsip_registrar.c: Registration attempt from endpoint '1002' (192.168.30.149:64806) to AOR '1002' will exceed max contacts of 1
+[Jun  2 13:55:46] WARNING[46] res_pjsip_registrar.c: Registration attempt from endpoint '1002' (192.168.30.149:64806) to AOR '1002' will exceed max contacts of 1
+[Jun  2 13:55:57] WARNING[46] res_pjsip_registrar.c: Registration attempt from endpoint '1002' (192.168.30.149:64806) to AOR '1002' will exceed max contacts of 1
+[Jun  2 13:56:19] WARNING[46] res_pjsip_registrar.c: Registration attempt from endpoint '1002' (192.168.30.149:64806) to AOR '1002' will exceed max contacts of 1
+[Jun  2 13:56:29] WARNING[46] res_pjsip_registrar.c: Registration attempt from endpoint '1002' (192.168.30.149:64806) to AOR '1002' will exceed max contacts of 1
+[Jun  2 13:57:52] Asterisk 22.9.0 built by root @ buildkitsandbox on a aarch64 running Linux on 2026-05-27 09:07:27 UTC
+[Jun  2 13:57:52] NOTICE[1] loader.c: 340 modules will be loaded.
+[Jun  2 13:57:52] WARNING[1] res_odbc.c: Unable to load config file res_odbc.conf
+[Jun  2 13:57:52] WARNING[1] res_config_pgsql.c: Unable to load config res_pgsql.conf
+[Jun  2 13:57:52] ERROR[1] res_config_ldap.c: Cannot load configuration file: res_ldap.conf
+[Jun  2 13:57:52] ERROR[1] res_config_ldap.c: Cannot load LDAP RealTime driver.
+[Jun  2 13:57:52] ERROR[1] res_config_sqlite3.c: Missing config file 'res_config_sqlite3.conf'
+[Jun  2 13:57:52] ERROR[1] config_options.c: Unable to load config file 'statsd.conf'
+[Jun  2 13:57:52] NOTICE[1] res_statsd.c: Could not load statsd config; using defaults
+[Jun  2 13:57:52] WARNING[1] ccss.c: Could not find valid ccss.conf file. Using cc_max_requests and devstate defaults
+[Jun  2 13:57:52] ERROR[1] config_options.c: Unable to load config file 'cdr.conf'
+[Jun  2 13:57:52] NOTICE[1] cdr.c: Failed to process CDR configuration; using defaults
+[Jun  2 13:57:52] NOTICE[1] cdr.c: CDR simple logging enabled.
+[Jun  2 13:57:52] ERROR[1] config_options.c: Unable to load config file 'cel.conf'
+[Jun  2 13:57:52] NOTICE[1] cel.c: Failed to process CEL configuration; using defaults
+[Jun  2 13:57:52] ERROR[1] config_options.c: Unable to load config file 'features.conf'
+[Jun  2 13:57:52] NOTICE[1] features_config.c: Could not load features config; using defaults
+[Jun  2 13:57:52] WARNING[1] indications.c: Can't find indications config file indications.conf.
+[Jun  2 13:57:52] ERROR[1] config_options.c: Unable to load config file 'acl.conf'
+[Jun  2 13:57:52] NOTICE[1] manager.c: Unable to open AMI configuration manager.conf, or configuration is invalid.
+[Jun  2 13:57:52] ERROR[1] config_options.c: Unable to load config file 'udptl.conf'
+[Jun  2 13:57:52] NOTICE[1] udptl.c: Could not load udptl config; using defaults
+[Jun  2 13:57:52] ERROR[1] res_sorcery_config.c: Unable to load config file 'geolocation.conf'
+[Jun  2 13:57:52] ERROR[1] res_sorcery_config.c: Unable to load config file 'geolocation.conf'
+[Jun  2 13:57:52] ERROR[1] res_sorcery_config.c: Unable to load config file 'pjproject.conf'
+[Jun  2 13:57:53] ERROR[1] res_pjsip_config_wizard.c: Unable to load config file 'pjsip_wizard.conf'
+[Jun  2 13:57:53] ERROR[1] res_pjsip_config_wizard.c: Unable to load config file 'pjsip_wizard.conf'
+[Jun  2 13:57:53] ERROR[1] res_pjsip_config_wizard.c: Unable to load config file 'pjsip_wizard.conf'
+[Jun  2 13:57:53] ERROR[1] res_pjsip_config_wizard.c: Unable to load config file 'pjsip_wizard.conf'
+[Jun  2 13:57:53] WARNING[1] res_stun_monitor.c: Unable to load config res_stun_monitor.conf
+[Jun  2 13:57:53] WARNING[1] res_musiconhold.c: No music on hold classes configured, disabling music on hold.
+[Jun  2 13:57:53] ERROR[1] res_sorcery_config.c: Unable to load config file 'aeap.conf'
+[Jun  2 13:57:53] ERROR[1] res_phoneprov.c: Unable to load config phoneprov.conf
+[Jun  2 13:57:53] ERROR[1] res_phoneprov.c: Unable to load provisioning profiles.
+[Jun  2 13:57:53] ERROR[1] res_sorcery_config.c: Unable to load config file 'websocket_client.conf'
+[Jun  2 13:57:53] NOTICE[1] res_smdi.c: Unable to load config smdi.conf: SMDI disabled
+[Jun  2 13:57:53] NOTICE[1] res_smdi.c: No SMDI interfaces are available to listen on, not starting SMDI listener.
+[Jun  2 13:57:53] ERROR[1] chan_iax2.c: Unable to load config iax.conf
+[Jun  2 13:57:53] NOTICE[1] chan_console.c: Unable to open configuration file console.conf!
+[Jun  2 13:57:53] ERROR[1] res_sorcery_config.c: Unable to load config file 'chan_websocket.conf'
+[Jun  2 13:57:53] ERROR[1] config_options.c: Unable to load config file 'hep.conf'
+[Jun  2 13:57:53] NOTICE[1] res_fax.c: Configuration file 'res_fax.conf' not found, using default options.
+[Jun  2 13:57:53] ERROR[1] res_sorcery_config.c: Unable to load config file 'ari.conf'
+[Jun  2 13:57:53] ERROR[1] res_sorcery_config.c: Unable to load config file 'ari.conf'
+[Jun  2 13:57:53] ERROR[1] res_sorcery_config.c: Unable to load config file 'ari.conf'
+[Jun  2 13:57:53] ERROR[1] res_pjsip_config_wizard.c: Unable to load config file 'pjsip_wizard.conf'
+[Jun  2 13:57:53] ERROR[1] config_options.c: Unable to load config file 'pjsip_notify.conf'
+[Jun  2 13:57:53] ERROR[1] res_calendar.c: Unable to load config calendar.conf
+[Jun  2 13:57:53] ERROR[1] config_options.c: Unable to load config file 'res_parking.conf'
+[Jun  2 13:57:53] ERROR[1] config_options.c: Unable to load config file 'agents.conf'
+[Jun  2 13:57:53] ERROR[1] app_agent_pool.c: Unable to load config. Not loading module.
+[Jun  2 13:57:53] ERROR[1] config_options.c: Unable to load config file 'confbridge.conf'
+[Jun  2 13:57:53] ERROR[1] app_confbridge.c: Unable to load config. Not loading module.
+[Jun  2 13:57:53] WARNING[1] cdr_manager.c: Failed to load configuration file. Module not activated.
+[Jun  2 13:57:53] WARNING[1] cdr_pgsql.c: Unable to load config for PostgreSQL CDR's: cdr_pgsql.conf
+[Jun  2 13:57:53] WARNING[1] cel_manager.c: Failed to load configuration file. CEL manager Module not activated.
+[Jun  2 13:57:53] WARNING[1] cdr_csv.c: unable to load config: cdr.conf
+[Jun  2 13:57:53] WARNING[1] cel_pgsql.c: Unable to load config for PostgreSQL CEL's: cel_pgsql.conf
+[Jun  2 13:57:53] ERROR[1] cdrel_custom/config.c: Unable to load cdr_sqlite3_custom.conf. Not logging CDRs to custom database
+[Jun  2 13:57:53] ERROR[1] cdrel_custom/config.c: Unable to load cdr_custom.conf. Not logging CDRs to custom files
+[Jun  2 13:57:53] ERROR[1] cdrel_custom/config.c: Unable to load cel_custom.conf. Not logging CELs to custom files
+[Jun  2 13:57:53] ERROR[1] cdrel_custom/config.c: Unable to load cel_sqlite3_custom.conf. Not logging CELs to custom database
+[Jun  2 13:57:53] WARNING[1] app_voicemail.c: Failed to load configuration file.
+[Jun  2 13:57:53] WARNING[1] app_minivm.c: Failed to load configuration file. Module activated with default settings.
+[Jun  2 13:57:53] WARNING[1] app_followme.c: No follow me config file (followme.conf), so no follow me
+[Jun  2 13:57:53] ERROR[1] config_options.c: Unable to load config file 'res_http_media_cache.conf'
+[Jun  2 13:57:53] NOTICE[1] res_http_media_cache.c: Could not load res_http_media_cache config; using defaults
+[Jun  2 13:57:53] ERROR[1] app_amd.c: Configuration file amd.conf missing.
+[Jun  2 13:57:53] ERROR[1] chan_unistim.c: Unable to load config unistim.conf
+[Jun  2 13:57:53] ERROR[1] res_clialiases.c: res_clialiases configuration file 'cli_aliases.conf' not found
+[Jun  2 13:57:53] NOTICE[1] pbx_ael.c: File /etc/asterisk/extensions.ael not found; AEL declining load
+[Jun  2 13:57:53] ERROR[1] pbx_dundi.c: Unable to load config dundi.conf
+[Jun  2 13:57:53] ERROR[1] config_options.c: Unable to load config file 'prometheus.conf'
+[Jun  2 13:57:53] NOTICE[1] app_queue.c: No queuerules.conf file found, queues will not follow penalty rules
+[Jun  2 13:57:53] NOTICE[1] app_queue.c: No call queueing config file (queues.conf), so no call queues
+[Jun  2 13:57:53] WARNING[1] loader.c: Some non-required modules failed to load.
+[Jun  2 13:57:53] WARNING[1] loader.c: Module 'res_adsi' has been loaded but may be removed in a future release.
+[Jun  2 13:57:53] WARNING[1] loader.c: Module 'app_adsiprog' has been loaded but may be removed in a future release.
+[Jun  2 13:57:53] WARNING[1] loader.c: Module 'app_getcpeid' has been loaded but may be removed in a future release.
+[Jun  2 13:57:53] ERROR[1] loader.c: Error loading module 'format_ogg_vorbis.so': libvorbisenc.so.2: cannot open shared object file: No such file or directory
+[Jun  2 13:57:53] ERROR[1] loader.c: res_odbc declined to load.
+[Jun  2 13:57:53] ERROR[1] loader.c: Declined modules which depend on res_odbc: res_config_odbc, cel_odbc, cdr_odbc, cdr_adaptive_odbc, func_odbc
+[Jun  2 13:57:53] ERROR[1] loader.c: res_config_pgsql declined to load.
+[Jun  2 13:57:53] ERROR[1] loader.c: res_stun_monitor declined to load.
+[Jun  2 13:57:53] ERROR[1] loader.c: res_phoneprov declined to load.
+[Jun  2 13:57:53] ERROR[1] loader.c: Declined modules which depend on res_phoneprov: res_pjsip_phoneprov_provider
+[Jun  2 13:57:53] ERROR[1] loader.c: chan_iax2 declined to load.
+[Jun  2 13:57:53] ERROR[1] loader.c: chan_console declined to load.
+[Jun  2 13:57:53] ERROR[1] loader.c: res_hep declined to load.
+[Jun  2 13:57:53] ERROR[1] loader.c: Declined modules which depend on res_hep: res_hep_rtcp, res_hep_pjsip
+[Jun  2 13:57:53] ERROR[1] loader.c: res_pjsip_notify declined to load.
+[Jun  2 13:57:53] ERROR[1] loader.c: res_calendar declined to load.
+[Jun  2 13:57:53] ERROR[1] loader.c: res_parking declined to load.
+[Jun  2 13:57:53] ERROR[1] loader.c: app_agent_pool declined to load.
+[Jun  2 13:57:53] ERROR[1] loader.c: app_confbridge declined to load.
+[Jun  2 13:57:53] ERROR[1] loader.c: Declined modules which depend on app_confbridge: app_page
+[Jun  2 13:57:53] ERROR[1] loader.c: cdr_manager declined to load.
+[Jun  2 13:57:53] ERROR[1] loader.c: cdr_pgsql declined to load.
+[Jun  2 13:57:53] ERROR[1] loader.c: cel_manager declined to load.
+[Jun  2 13:57:53] ERROR[1] loader.c: cdr_csv declined to load.
+[Jun  2 13:57:53] ERROR[1] loader.c: cel_pgsql declined to load.
+[Jun  2 13:57:53] ERROR[1] loader.c: cdr_sqlite3_custom declined to load.
+[Jun  2 13:57:53] ERROR[1] loader.c: cdr_custom declined to load.
+[Jun  2 13:57:53] ERROR[1] loader.c: cel_custom declined to load.
+[Jun  2 13:57:53] ERROR[1] loader.c: cel_sqlite3_custom declined to load.
+[Jun  2 13:57:53] ERROR[1] loader.c: app_followme declined to load.
+[Jun  2 13:57:53] ERROR[1] loader.c: app_amd declined to load.
+[Jun  2 13:57:53] ERROR[1] loader.c: chan_unistim declined to load.
+[Jun  2 13:57:53] ERROR[1] loader.c: app_alarmreceiver declined to load.
+[Jun  2 13:57:53] ERROR[1] loader.c: pbx_ael declined to load.
+[Jun  2 13:57:53] ERROR[1] loader.c: pbx_dundi declined to load.
+[Jun  2 13:57:53] ERROR[1] loader.c: res_prometheus declined to load.
+[Jun  2 13:57:53] ERROR[1] loader.c: app_queue declined to load.
+[Jun  2 13:58:10] WARNING[46] res_pjsip_registrar.c: Registration attempt from endpoint '1002' (192.168.30.149:64806) to AOR '1002' will exceed max contacts of 1
+[Jun  2 14:22:10] Asterisk 22.9.0 built by root @ buildkitsandbox on a aarch64 running Linux on 2026-05-27 09:07:27 UTC
+[Jun  2 14:22:10] NOTICE[1] loader.c: 340 modules will be loaded.
+[Jun  2 14:22:11] WARNING[1] res_odbc.c: Unable to load config file res_odbc.conf
+[Jun  2 14:22:12] WARNING[1] res_config_pgsql.c: Unable to load config res_pgsql.conf
+[Jun  2 14:22:12] ERROR[1] res_config_ldap.c: Cannot load configuration file: res_ldap.conf
+[Jun  2 14:22:12] ERROR[1] res_config_ldap.c: Cannot load LDAP RealTime driver.
+[Jun  2 14:22:12] ERROR[1] res_config_sqlite3.c: Missing config file 'res_config_sqlite3.conf'
+[Jun  2 14:22:12] ERROR[1] config_options.c: Unable to load config file 'statsd.conf'
+[Jun  2 14:22:12] NOTICE[1] res_statsd.c: Could not load statsd config; using defaults
+[Jun  2 14:22:12] WARNING[1] ccss.c: Could not find valid ccss.conf file. Using cc_max_requests and devstate defaults
+[Jun  2 14:22:12] ERROR[1] config_options.c: Unable to load config file 'cdr.conf'
+[Jun  2 14:22:12] NOTICE[1] cdr.c: Failed to process CDR configuration; using defaults
+[Jun  2 14:22:12] NOTICE[1] cdr.c: CDR simple logging enabled.
+[Jun  2 14:22:12] ERROR[1] config_options.c: Unable to load config file 'cel.conf'
+[Jun  2 14:22:12] NOTICE[1] cel.c: Failed to process CEL configuration; using defaults
+[Jun  2 14:22:12] ERROR[1] config_options.c: Unable to load config file 'features.conf'
+[Jun  2 14:22:12] NOTICE[1] features_config.c: Could not load features config; using defaults
+[Jun  2 14:22:12] WARNING[1] indications.c: Can't find indications config file indications.conf.
+[Jun  2 14:22:12] ERROR[1] config_options.c: Unable to load config file 'acl.conf'
+[Jun  2 14:22:12] NOTICE[1] manager.c: Unable to open AMI configuration manager.conf, or configuration is invalid.
+[Jun  2 14:22:12] ERROR[1] config_options.c: Unable to load config file 'udptl.conf'
+[Jun  2 14:22:12] NOTICE[1] udptl.c: Could not load udptl config; using defaults
+[Jun  2 14:22:12] ERROR[1] res_sorcery_config.c: Unable to load config file 'geolocation.conf'
+[Jun  2 14:22:12] ERROR[1] res_sorcery_config.c: Unable to load config file 'geolocation.conf'
+[Jun  2 14:22:12] ERROR[1] res_sorcery_config.c: Unable to load config file 'pjproject.conf'
+[Jun  2 14:22:12] ERROR[1] res_pjsip_config_wizard.c: Unable to load config file 'pjsip_wizard.conf'
+[Jun  2 14:22:12] ERROR[1] res_pjsip_config_wizard.c: Unable to load config file 'pjsip_wizard.conf'
+[Jun  2 14:22:12] ERROR[1] res_pjsip_config_wizard.c: Unable to load config file 'pjsip_wizard.conf'
+[Jun  2 14:22:12] ERROR[1] res_pjsip_config_wizard.c: Unable to load config file 'pjsip_wizard.conf'
+[Jun  2 14:22:12] WARNING[1] res_stun_monitor.c: Unable to load config res_stun_monitor.conf
+[Jun  2 14:22:12] WARNING[1] res_musiconhold.c: No music on hold classes configured, disabling music on hold.
+[Jun  2 14:22:12] ERROR[1] res_sorcery_config.c: Unable to load config file 'aeap.conf'
+[Jun  2 14:22:12] ERROR[1] res_phoneprov.c: Unable to load config phoneprov.conf
+[Jun  2 14:22:12] ERROR[1] res_phoneprov.c: Unable to load provisioning profiles.
+[Jun  2 14:22:12] ERROR[1] res_sorcery_config.c: Unable to load config file 'websocket_client.conf'
+[Jun  2 14:22:12] NOTICE[1] res_smdi.c: Unable to load config smdi.conf: SMDI disabled
+[Jun  2 14:22:12] NOTICE[1] res_smdi.c: No SMDI interfaces are available to listen on, not starting SMDI listener.
+[Jun  2 14:22:12] ERROR[1] chan_iax2.c: Unable to load config iax.conf
+[Jun  2 14:22:12] NOTICE[1] chan_console.c: Unable to open configuration file console.conf!
+[Jun  2 14:22:12] ERROR[1] res_sorcery_config.c: Unable to load config file 'chan_websocket.conf'
+[Jun  2 14:22:12] ERROR[1] config_options.c: Unable to load config file 'hep.conf'
+[Jun  2 14:22:12] NOTICE[1] res_fax.c: Configuration file 'res_fax.conf' not found, using default options.
+[Jun  2 14:22:12] ERROR[1] res_sorcery_config.c: Unable to load config file 'ari.conf'
+[Jun  2 14:22:12] ERROR[1] res_sorcery_config.c: Unable to load config file 'ari.conf'
+[Jun  2 14:22:12] ERROR[1] res_sorcery_config.c: Unable to load config file 'ari.conf'
+[Jun  2 14:22:12] ERROR[1] res_pjsip_config_wizard.c: Unable to load config file 'pjsip_wizard.conf'
+[Jun  2 14:22:12] ERROR[1] config_options.c: Unable to load config file 'pjsip_notify.conf'
+[Jun  2 14:22:12] ERROR[1] res_calendar.c: Unable to load config calendar.conf
+[Jun  2 14:22:12] ERROR[1] config_options.c: Unable to load config file 'res_parking.conf'
+[Jun  2 14:22:12] ERROR[1] config_options.c: Unable to load config file 'agents.conf'
+[Jun  2 14:22:12] ERROR[1] app_agent_pool.c: Unable to load config. Not loading module.
+[Jun  2 14:22:12] ERROR[1] config_options.c: Unable to load config file 'confbridge.conf'
+[Jun  2 14:22:12] ERROR[1] app_confbridge.c: Unable to load config. Not loading module.
+[Jun  2 14:22:12] WARNING[1] cdr_manager.c: Failed to load configuration file. Module not activated.
+[Jun  2 14:22:12] WARNING[1] cdr_pgsql.c: Unable to load config for PostgreSQL CDR's: cdr_pgsql.conf
+[Jun  2 14:22:12] WARNING[1] cel_manager.c: Failed to load configuration file. CEL manager Module not activated.
+[Jun  2 14:22:12] WARNING[1] cdr_csv.c: unable to load config: cdr.conf
+[Jun  2 14:22:12] WARNING[1] cel_pgsql.c: Unable to load config for PostgreSQL CEL's: cel_pgsql.conf
+[Jun  2 14:22:12] ERROR[1] cdrel_custom/config.c: Unable to load cdr_sqlite3_custom.conf. Not logging CDRs to custom database
+[Jun  2 14:22:12] ERROR[1] cdrel_custom/config.c: Unable to load cdr_custom.conf. Not logging CDRs to custom files
+[Jun  2 14:22:12] ERROR[1] cdrel_custom/config.c: Unable to load cel_custom.conf. Not logging CELs to custom files
+[Jun  2 14:22:12] ERROR[1] cdrel_custom/config.c: Unable to load cel_sqlite3_custom.conf. Not logging CELs to custom database
+[Jun  2 14:22:12] WARNING[1] app_voicemail.c: Failed to load configuration file.
+[Jun  2 14:22:12] WARNING[1] app_minivm.c: Failed to load configuration file. Module activated with default settings.
+[Jun  2 14:22:12] WARNING[1] app_followme.c: No follow me config file (followme.conf), so no follow me
+[Jun  2 14:22:12] ERROR[1] config_options.c: Unable to load config file 'res_http_media_cache.conf'
+[Jun  2 14:22:12] NOTICE[1] res_http_media_cache.c: Could not load res_http_media_cache config; using defaults
+[Jun  2 14:22:12] ERROR[1] app_amd.c: Configuration file amd.conf missing.
+[Jun  2 14:22:12] ERROR[1] chan_unistim.c: Unable to load config unistim.conf
+[Jun  2 14:22:12] ERROR[1] res_clialiases.c: res_clialiases configuration file 'cli_aliases.conf' not found
+[Jun  2 14:22:12] NOTICE[1] pbx_ael.c: File /etc/asterisk/extensions.ael not found; AEL declining load
+[Jun  2 14:22:12] ERROR[1] pbx_dundi.c: Unable to load config dundi.conf
+[Jun  2 14:22:12] ERROR[1] config_options.c: Unable to load config file 'prometheus.conf'
+[Jun  2 14:22:12] NOTICE[1] app_queue.c: No queuerules.conf file found, queues will not follow penalty rules
+[Jun  2 14:22:12] NOTICE[1] app_queue.c: No call queueing config file (queues.conf), so no call queues
+[Jun  2 14:22:12] WARNING[1] loader.c: Some non-required modules failed to load.
+[Jun  2 14:22:12] WARNING[1] loader.c: Module 'res_adsi' has been loaded but may be removed in a future release.
+[Jun  2 14:22:12] WARNING[1] loader.c: Module 'app_adsiprog' has been loaded but may be removed in a future release.
+[Jun  2 14:22:12] WARNING[1] loader.c: Module 'app_getcpeid' has been loaded but may be removed in a future release.
+[Jun  2 14:22:12] ERROR[1] loader.c: Error loading module 'format_ogg_vorbis.so': libvorbisenc.so.2: cannot open shared object file: No such file or directory
+[Jun  2 14:22:12] ERROR[1] loader.c: res_odbc declined to load.
+[Jun  2 14:22:12] ERROR[1] loader.c: Declined modules which depend on res_odbc: res_config_odbc, cel_odbc, cdr_odbc, cdr_adaptive_odbc, func_odbc
+[Jun  2 14:22:12] ERROR[1] loader.c: res_config_pgsql declined to load.
+[Jun  2 14:22:12] ERROR[1] loader.c: res_stun_monitor declined to load.
+[Jun  2 14:22:12] ERROR[1] loader.c: res_phoneprov declined to load.
+[Jun  2 14:22:12] ERROR[1] loader.c: Declined modules which depend on res_phoneprov: res_pjsip_phoneprov_provider
+[Jun  2 14:22:12] ERROR[1] loader.c: chan_iax2 declined to load.
+[Jun  2 14:22:12] ERROR[1] loader.c: chan_console declined to load.
+[Jun  2 14:22:12] ERROR[1] loader.c: res_hep declined to load.
+[Jun  2 14:22:12] ERROR[1] loader.c: Declined modules which depend on res_hep: res_hep_rtcp, res_hep_pjsip
+[Jun  2 14:22:12] ERROR[1] loader.c: res_pjsip_notify declined to load.
+[Jun  2 14:22:12] ERROR[1] loader.c: res_calendar declined to load.
+[Jun  2 14:22:12] ERROR[1] loader.c: res_parking declined to load.
+[Jun  2 14:22:12] ERROR[1] loader.c: app_agent_pool declined to load.
+[Jun  2 14:22:12] ERROR[1] loader.c: app_confbridge declined to load.
+[Jun  2 14:22:12] ERROR[1] loader.c: Declined modules which depend on app_confbridge: app_page
+[Jun  2 14:22:12] ERROR[1] loader.c: cdr_manager declined to load.
+[Jun  2 14:22:12] ERROR[1] loader.c: cdr_pgsql declined to load.
+[Jun  2 14:22:12] ERROR[1] loader.c: cel_manager declined to load.
+[Jun  2 14:22:12] ERROR[1] loader.c: cdr_csv declined to load.
+[Jun  2 14:22:12] ERROR[1] loader.c: cel_pgsql declined to load.
+[Jun  2 14:22:12] ERROR[1] loader.c: cdr_sqlite3_custom declined to load.
+[Jun  2 14:22:12] ERROR[1] loader.c: cdr_custom declined to load.
+[Jun  2 14:22:12] ERROR[1] loader.c: cel_custom declined to load.
+[Jun  2 14:22:12] ERROR[1] loader.c: cel_sqlite3_custom declined to load.
+[Jun  2 14:22:12] ERROR[1] loader.c: app_followme declined to load.
+[Jun  2 14:22:12] ERROR[1] loader.c: app_amd declined to load.
+[Jun  2 14:22:12] ERROR[1] loader.c: chan_unistim declined to load.
+[Jun  2 14:22:12] ERROR[1] loader.c: app_alarmreceiver declined to load.
+[Jun  2 14:22:12] ERROR[1] loader.c: pbx_ael declined to load.
+[Jun  2 14:22:12] ERROR[1] loader.c: pbx_dundi declined to load.
+[Jun  2 14:22:12] ERROR[1] loader.c: res_prometheus declined to load.
+[Jun  2 14:22:12] ERROR[1] loader.c: app_queue declined to load.
+[Jun  4 09:59:08] NOTICE[46] res_pjsip/pjsip_distributor.c: Request 'OPTIONS' from '<sip:msftndr2@fabrikam.com>' failed for '10.2.1.179:57084' (callid: a84b4c76e66710) - No matching endpoint found
+[Jun  4 10:02:02] NOTICE[46] res_pjsip/pjsip_distributor.c: Request 'OPTIONS' from '<sip:msftndr2@fabrikam.com>' failed for '10.2.130.6:53856' (callid: a84b4c76e66710) - No matching endpoint found
+[Jun  4 10:09:53] NOTICE[46] res_pjsip/pjsip_distributor.c: Request 'OPTIONS' from '<sip:msftndr2@fabrikam.com>' failed for '10.2.13.1:63021' (callid: a84b4c76e66710) - No matching endpoint found
+[Jun  4 10:14:33] NOTICE[46] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"6001" <sip:6001@192.168.120.2>' failed for '192.168.120.100:5060' (callid: 0_656116711@192.168.120.100) - No matching endpoint found
+[Jun  4 10:14:33] NOTICE[46] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"6001" <sip:6001@192.168.120.2>' failed for '192.168.120.100:5060' (callid: 0_656116711@192.168.120.100) - No matching endpoint found
+[Jun  4 10:14:33] NOTICE[46] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"6001" <sip:6001@192.168.120.2>' failed for '192.168.120.100:5060' (callid: 0_656116711@192.168.120.100) - Failed to authenticate
+[Jun  4 10:14:33] NOTICE[46] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"6001" <sip:6001@192.168.120.2>' failed for '192.168.120.100:5060' (callid: 0_656116711@192.168.120.100) - No matching endpoint found
+[Jun  4 10:14:33] NOTICE[46] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"6001" <sip:6001@192.168.120.2>' failed for '192.168.120.100:5060' (callid: 0_656116711@192.168.120.100) - Failed to authenticate
+[Jun  4 10:14:33] NOTICE[46] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"6001" <sip:6001@192.168.120.2>' failed for '192.168.120.100:5060' (callid: 0_656116711@192.168.120.100) - No matching endpoint found
+[Jun  4 10:14:33] NOTICE[46] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"6001" <sip:6001@192.168.120.2>' failed for '192.168.120.100:5060' (callid: 0_656116711@192.168.120.100) - Failed to authenticate
+[Jun  4 10:14:33] NOTICE[46] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"6001" <sip:6001@192.168.120.2>' failed for '192.168.120.100:5060' (callid: 0_656116711@192.168.120.100) - No matching endpoint found
+[Jun  4 10:14:33] NOTICE[46] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"6001" <sip:6001@192.168.120.2>' failed for '192.168.120.100:5060' (callid: 0_656116711@192.168.120.100) - Failed to authenticate
+[Jun  4 10:15:02] NOTICE[46] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"6001" <sip:6001@192.168.120.2>' failed for '192.168.120.100:5060' (callid: 0_656926137@192.168.120.100) - No matching endpoint found
+[Jun  4 10:15:02] NOTICE[46] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"6001" <sip:6001@192.168.120.2>' failed for '192.168.120.100:5060' (callid: 0_656926137@192.168.120.100) - No matching endpoint found
+[Jun  4 10:15:02] NOTICE[46] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"6001" <sip:6001@192.168.120.2>' failed for '192.168.120.100:5060' (callid: 0_656926137@192.168.120.100) - Failed to authenticate
+[Jun  4 10:15:02] NOTICE[46] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"6001" <sip:6001@192.168.120.2>' failed for '192.168.120.100:5060' (callid: 0_656926137@192.168.120.100) - No matching endpoint found
+[Jun  4 10:15:02] NOTICE[46] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"6001" <sip:6001@192.168.120.2>' failed for '192.168.120.100:5060' (callid: 0_656926137@192.168.120.100) - Failed to authenticate
+[Jun  4 10:15:02] NOTICE[46] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"6001" <sip:6001@192.168.120.2>' failed for '192.168.120.100:5060' (callid: 0_656926137@192.168.120.100) - No matching endpoint found
+[Jun  4 10:15:02] NOTICE[46] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"6001" <sip:6001@192.168.120.2>' failed for '192.168.120.100:5060' (callid: 0_656926137@192.168.120.100) - Failed to authenticate
+[Jun  4 10:15:02] NOTICE[46] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"6001" <sip:6001@192.168.120.2>' failed for '192.168.120.100:5060' (callid: 0_656926137@192.168.120.100) - No matching endpoint found
+[Jun  4 10:15:02] NOTICE[46] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"6001" <sip:6001@192.168.120.2>' failed for '192.168.120.100:5060' (callid: 0_656926137@192.168.120.100) - Failed to authenticate
+[Jun  4 10:15:33] NOTICE[46] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"6001" <sip:6001@192.168.120.2>' failed for '192.168.120.100:5060' (callid: 0_657692504@192.168.120.100) - No matching endpoint found
+[Jun  4 10:15:33] NOTICE[46] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"6001" <sip:6001@192.168.120.2>' failed for '192.168.120.100:5060' (callid: 0_657692504@192.168.120.100) - No matching endpoint found
+[Jun  4 10:15:33] NOTICE[46] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"6001" <sip:6001@192.168.120.2>' failed for '192.168.120.100:5060' (callid: 0_657692504@192.168.120.100) - Failed to authenticate
+[Jun  4 10:15:33] NOTICE[46] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"6001" <sip:6001@192.168.120.2>' failed for '192.168.120.100:5060' (callid: 0_657692504@192.168.120.100) - No matching endpoint found
+[Jun  4 10:15:33] NOTICE[46] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"6001" <sip:6001@192.168.120.2>' failed for '192.168.120.100:5060' (callid: 0_657692504@192.168.120.100) - Failed to authenticate
+[Jun  4 10:15:33] NOTICE[46] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"6001" <sip:6001@192.168.120.2>' failed for '192.168.120.100:5060' (callid: 0_657692504@192.168.120.100) - No matching endpoint found
+[Jun  4 10:15:33] NOTICE[46] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"6001" <sip:6001@192.168.120.2>' failed for '192.168.120.100:5060' (callid: 0_657692504@192.168.120.100) - Failed to authenticate
+[Jun  4 10:15:33] NOTICE[46] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"6001" <sip:6001@192.168.120.2>' failed for '192.168.120.100:5060' (callid: 0_657692504@192.168.120.100) - No matching endpoint found
+[Jun  4 10:15:33] NOTICE[46] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"6001" <sip:6001@192.168.120.2>' failed for '192.168.120.100:5060' (callid: 0_657692504@192.168.120.100) - Failed to authenticate
+[Jun  4 10:16:05] NOTICE[46] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"6001" <sip:6001@192.168.120.2>' failed for '192.168.120.100:5060' (callid: 0_658494325@192.168.120.100) - No matching endpoint found
+[Jun  4 10:16:05] NOTICE[46] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"6001" <sip:6001@192.168.120.2>' failed for '192.168.120.100:5060' (callid: 0_658494325@192.168.120.100) - No matching endpoint found
+[Jun  4 10:16:05] NOTICE[46] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"6001" <sip:6001@192.168.120.2>' failed for '192.168.120.100:5060' (callid: 0_658494325@192.168.120.100) - Failed to authenticate
+[Jun  4 10:16:05] NOTICE[46] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"6001" <sip:6001@192.168.120.2>' failed for '192.168.120.100:5060' (callid: 0_658494325@192.168.120.100) - No matching endpoint found
+[Jun  4 10:16:05] NOTICE[46] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"6001" <sip:6001@192.168.120.2>' failed for '192.168.120.100:5060' (callid: 0_658494325@192.168.120.100) - Failed to authenticate
+[Jun  4 10:16:05] NOTICE[46] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"6001" <sip:6001@192.168.120.2>' failed for '192.168.120.100:5060' (callid: 0_658494325@192.168.120.100) - No matching endpoint found
+[Jun  4 10:16:05] NOTICE[46] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"6001" <sip:6001@192.168.120.2>' failed for '192.168.120.100:5060' (callid: 0_658494325@192.168.120.100) - Failed to authenticate
+[Jun  4 10:16:05] NOTICE[46] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"6001" <sip:6001@192.168.120.2>' failed for '192.168.120.100:5060' (callid: 0_658494325@192.168.120.100) - No matching endpoint found
+[Jun  4 10:16:05] NOTICE[46] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"6001" <sip:6001@192.168.120.2>' failed for '192.168.120.100:5060' (callid: 0_658494325@192.168.120.100) - Failed to authenticate
+[Jun  4 10:16:36] NOTICE[46] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"6001" <sip:6001@192.168.120.2>' failed for '192.168.120.100:5060' (callid: 0_659245335@192.168.120.100) - No matching endpoint found
+[Jun  4 10:16:36] NOTICE[46] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"6001" <sip:6001@192.168.120.2>' failed for '192.168.120.100:5060' (callid: 0_659245335@192.168.120.100) - No matching endpoint found
+[Jun  4 10:16:36] NOTICE[46] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"6001" <sip:6001@192.168.120.2>' failed for '192.168.120.100:5060' (callid: 0_659245335@192.168.120.100) - Failed to authenticate
+[Jun  4 10:16:36] NOTICE[46] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"6001" <sip:6001@192.168.120.2>' failed for '192.168.120.100:5060' (callid: 0_659245335@192.168.120.100) - No matching endpoint found
+[Jun  4 10:16:36] NOTICE[46] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"6001" <sip:6001@192.168.120.2>' failed for '192.168.120.100:5060' (callid: 0_659245335@192.168.120.100) - Failed to authenticate
+[Jun  4 10:16:36] NOTICE[46] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"6001" <sip:6001@192.168.120.2>' failed for '192.168.120.100:5060' (callid: 0_659245335@192.168.120.100) - No matching endpoint found
+[Jun  4 10:16:36] NOTICE[46] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"6001" <sip:6001@192.168.120.2>' failed for '192.168.120.100:5060' (callid: 0_659245335@192.168.120.100) - Failed to authenticate
+[Jun  4 10:16:36] NOTICE[46] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"6001" <sip:6001@192.168.120.2>' failed for '192.168.120.100:5060' (callid: 0_659245335@192.168.120.100) - No matching endpoint found
+[Jun  4 10:16:36] NOTICE[46] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"6001" <sip:6001@192.168.120.2>' failed for '192.168.120.100:5060' (callid: 0_659245335@192.168.120.100) - Failed to authenticate
+[Jun  4 10:17:07] NOTICE[46] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"6001" <sip:6001@192.168.120.2>' failed for '192.168.120.100:5060' (callid: 0_660038213@192.168.120.100) - No matching endpoint found
+[Jun  4 10:17:07] NOTICE[46] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"6001" <sip:6001@192.168.120.2>' failed for '192.168.120.100:5060' (callid: 0_660038213@192.168.120.100) - No matching endpoint found
+[Jun  4 10:17:07] NOTICE[46] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"6001" <sip:6001@192.168.120.2>' failed for '192.168.120.100:5060' (callid: 0_660038213@192.168.120.100) - Failed to authenticate
+[Jun  4 10:17:07] NOTICE[46] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"6001" <sip:6001@192.168.120.2>' failed for '192.168.120.100:5060' (callid: 0_660038213@192.168.120.100) - No matching endpoint found
+[Jun  4 10:17:07] NOTICE[46] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"6001" <sip:6001@192.168.120.2>' failed for '192.168.120.100:5060' (callid: 0_660038213@192.168.120.100) - Failed to authenticate
+[Jun  4 10:17:07] NOTICE[46] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"6001" <sip:6001@192.168.120.2>' failed for '192.168.120.100:5060' (callid: 0_660038213@192.168.120.100) - No matching endpoint found
+[Jun  4 10:17:07] NOTICE[46] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"6001" <sip:6001@192.168.120.2>' failed for '192.168.120.100:5060' (callid: 0_660038213@192.168.120.100) - Failed to authenticate
+[Jun  4 10:17:07] NOTICE[46] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"6001" <sip:6001@192.168.120.2>' failed for '192.168.120.100:5060' (callid: 0_660038213@192.168.120.100) - No matching endpoint found
+[Jun  4 10:17:07] NOTICE[46] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"6001" <sip:6001@192.168.120.2>' failed for '192.168.120.100:5060' (callid: 0_660038213@192.168.120.100) - Failed to authenticate
+[Jun  4 10:17:39] NOTICE[46] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"6001" <sip:6001@192.168.120.2>' failed for '192.168.120.100:5060' (callid: 0_660853659@192.168.120.100) - No matching endpoint found
+[Jun  4 10:17:39] NOTICE[46] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"6001" <sip:6001@192.168.120.2>' failed for '192.168.120.100:5060' (callid: 0_660853659@192.168.120.100) - No matching endpoint found
+[Jun  4 10:17:39] NOTICE[46] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"6001" <sip:6001@192.168.120.2>' failed for '192.168.120.100:5060' (callid: 0_660853659@192.168.120.100) - Failed to authenticate
+[Jun  4 10:17:39] NOTICE[46] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"6001" <sip:6001@192.168.120.2>' failed for '192.168.120.100:5060' (callid: 0_660853659@192.168.120.100) - No matching endpoint found
+[Jun  4 10:17:39] NOTICE[46] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"6001" <sip:6001@192.168.120.2>' failed for '192.168.120.100:5060' (callid: 0_660853659@192.168.120.100) - Failed to authenticate
+[Jun  4 10:17:39] NOTICE[46] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"6001" <sip:6001@192.168.120.2>' failed for '192.168.120.100:5060' (callid: 0_660853659@192.168.120.100) - No matching endpoint found
+[Jun  4 10:17:39] NOTICE[46] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"6001" <sip:6001@192.168.120.2>' failed for '192.168.120.100:5060' (callid: 0_660853659@192.168.120.100) - Failed to authenticate
+[Jun  4 10:17:39] NOTICE[46] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"6001" <sip:6001@192.168.120.2>' failed for '192.168.120.100:5060' (callid: 0_660853659@192.168.120.100) - No matching endpoint found
+[Jun  4 10:17:39] NOTICE[46] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"6001" <sip:6001@192.168.120.2>' failed for '192.168.120.100:5060' (callid: 0_660853659@192.168.120.100) - Failed to authenticate
+[Jun  4 10:18:10] NOTICE[46] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"6001" <sip:6001@192.168.120.2>' failed for '192.168.120.100:5060' (callid: 0_661595831@192.168.120.100) - No matching endpoint found
+[Jun  4 10:18:10] NOTICE[46] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"6001" <sip:6001@192.168.120.2>' failed for '192.168.120.100:5060' (callid: 0_661595831@192.168.120.100) - No matching endpoint found
+[Jun  4 10:18:10] NOTICE[46] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"6001" <sip:6001@192.168.120.2>' failed for '192.168.120.100:5060' (callid: 0_661595831@192.168.120.100) - Failed to authenticate
+[Jun  4 10:18:10] NOTICE[46] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"6001" <sip:6001@192.168.120.2>' failed for '192.168.120.100:5060' (callid: 0_661595831@192.168.120.100) - No matching endpoint found
+[Jun  4 10:18:10] NOTICE[46] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"6001" <sip:6001@192.168.120.2>' failed for '192.168.120.100:5060' (callid: 0_661595831@192.168.120.100) - Failed to authenticate
+[Jun  4 10:18:10] NOTICE[46] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"6001" <sip:6001@192.168.120.2>' failed for '192.168.120.100:5060' (callid: 0_661595831@192.168.120.100) - No matching endpoint found
+[Jun  4 10:18:10] NOTICE[46] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"6001" <sip:6001@192.168.120.2>' failed for '192.168.120.100:5060' (callid: 0_661595831@192.168.120.100) - Failed to authenticate
+[Jun  4 10:18:10] NOTICE[46] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"6001" <sip:6001@192.168.120.2>' failed for '192.168.120.100:5060' (callid: 0_661595831@192.168.120.100) - No matching endpoint found
+[Jun  4 10:18:10] NOTICE[46] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '"6001" <sip:6001@192.168.120.2>' failed for '192.168.120.100:5060' (callid: 0_661595831@192.168.120.100) - Failed to authenticate
+[Jun  4 10:18:16] ERROR[46] res_pjsip_config_wizard.c: Unable to load config file 'pjsip_wizard.conf'
+[Jun  4 10:18:16] ERROR[46] res_pjsip_config_wizard.c: Unable to load config file 'pjsip_wizard.conf'
+[Jun  4 10:18:16] NOTICE[46] res_pjsip/config_transport.c: Transport 'transport-udp' is not fully reloadable, not reloading: protocol, bind, TLS (everything but certificate and private key if filename is unchanged), TCP, ToS, or CoS options.
+[Jun  4 10:18:16] ERROR[46] res_pjsip_config_wizard.c: Unable to load config file 'pjsip_wizard.conf'
+[Jun  4 10:18:16] ERROR[46] res_pjsip_config_wizard.c: Unable to load config file 'pjsip_wizard.conf'
+[Jun  4 10:18:16] NOTICE[46] sorcery.c: Type 'system' is not reloadable, maintaining previous values
+[Jun  4 10:18:16] ERROR[46] res_pjsip_config_wizard.c: Unable to load config file 'pjsip_wizard.conf'
+[Jun  4 10:23:09] WARNING[14594][C-00000004] file.c: File vm-theperson does not exist in any format
+[Jun  4 10:23:09] WARNING[14594][C-00000004] file.c: Unable to open vm-theperson (format (ulaw)): No such file or directory
+[Jun  4 10:23:38] NOTICE[46] res_pjsip_session.c:  6001: Call (UDP:192.168.120.100:5060) to extension '0675538716' rejected because extension not found in context 'internal'.
+[Jun  4 10:23:45] WARNING[46] res_pjsip_registrar.c: Registration attempt from endpoint '1001' (10.2.1.203:55442) to AOR '1001' will exceed max contacts of 1
+[Jun  4 10:23:47] WARNING[46] res_pjsip_registrar.c: Registration attempt from endpoint '1001' (10.2.1.203:55442) to AOR '1001' will exceed max contacts of 1
+[Jun  4 10:23:50] WARNING[46] res_pjsip_registrar.c: Registration attempt from endpoint '1001' (10.2.1.203:55442) to AOR '1001' will exceed max contacts of 1
+[Jun  4 10:23:56] WARNING[46] res_pjsip_registrar.c: Registration attempt from endpoint '1001' (10.2.1.203:55442) to AOR '1001' will exceed max contacts of 1
+[Jun  4 10:23:56] WARNING[46] res_pjsip_registrar.c: Registration attempt from endpoint '1001' (10.2.1.203:55442) to AOR '1001' will exceed max contacts of 1
+[Jun  4 10:23:56] WARNING[46] res_pjsip_registrar.c: Registration attempt from endpoint '1001' (10.2.1.203:55442) to AOR '1001' will exceed max contacts of 1
+[Jun  4 10:23:58] WARNING[46] res_pjsip_registrar.c: Registration attempt from endpoint '1001' (10.2.1.203:55442) to AOR '1001' will exceed max contacts of 1
+[Jun  4 10:24:00] WARNING[46] res_pjsip_registrar.c: Registration attempt from endpoint '1001' (10.2.1.203:55442) to AOR '1001' will exceed max contacts of 1
+[Jun  4 10:24:11] WARNING[46] res_pjsip_registrar.c: Registration attempt from endpoint '1001' (10.2.1.203:55442) to AOR '1001' will exceed max contacts of 1
+[Jun  4 10:24:12] WARNING[46] res_pjsip_registrar.c: Registration attempt from endpoint '1001' (10.2.1.203:55442) to AOR '1001' will exceed max contacts of 1
+[Jun  4 10:24:13] WARNING[46] res_pjsip_registrar.c: Registration attempt from endpoint '1001' (10.2.1.203:55442) to AOR '1001' will exceed max contacts of 1
+[Jun  4 10:24:15] WARNING[46] res_pjsip_registrar.c: Registration attempt from endpoint '1001' (10.2.1.203:55442) to AOR '1001' will exceed max contacts of 1
+[Jun  4 10:24:20] WARNING[46] res_pjsip_registrar.c: Registration attempt from endpoint '1001' (10.2.1.203:55442) to AOR '1001' will exceed max contacts of 1
+[Jun  4 10:24:29] WARNING[46] res_pjsip_registrar.c: Registration attempt from endpoint '1001' (10.2.1.203:55442) to AOR '1001' will exceed max contacts of 1
+[Jun  4 10:24:48] WARNING[46] res_pjsip_registrar.c: Registration attempt from endpoint '1001' (10.2.1.203:55442) to AOR '1001' will exceed max contacts of 1
+[Jun  4 10:24:53] WARNING[46] res_pjsip_registrar.c: Registration attempt from endpoint '1001' (10.2.1.203:55442) to AOR '1001' will exceed max contacts of 1
+[Jun  4 10:25:02] WARNING[46] res_pjsip_registrar.c: Registration attempt from endpoint '1001' (10.2.1.203:55442) to AOR '1001' will exceed max contacts of 1
+[Jun  4 10:25:20] WARNING[46] res_pjsip_registrar.c: Registration attempt from endpoint '1001' (10.2.1.203:55442) to AOR '1001' will exceed max contacts of 1
+[Jun  4 10:25:26] WARNING[46] res_pjsip_registrar.c: Registration attempt from endpoint '1001' (10.2.1.203:55442) to AOR '1001' will exceed max contacts of 1
+[Jun  4 10:25:35] WARNING[46] res_pjsip_registrar.c: Registration attempt from endpoint '1001' (10.2.1.203:55442) to AOR '1001' will exceed max contacts of 1
+[Jun  4 10:23:44] Asterisk 22.9.0 built by root @ buildkitsandbox on a aarch64 running Linux on 2026-05-27 09:07:27 UTC
+[Jun  4 10:23:44] NOTICE[1] loader.c: 340 modules will be loaded.
+[Jun  4 10:23:45] WARNING[1] res_odbc.c: Unable to load config file res_odbc.conf
+[Jun  4 10:23:45] WARNING[1] res_config_pgsql.c: Unable to load config res_pgsql.conf
+[Jun  4 10:23:45] ERROR[1] res_config_ldap.c: Cannot load configuration file: res_ldap.conf
+[Jun  4 10:23:45] ERROR[1] res_config_ldap.c: Cannot load LDAP RealTime driver.
+[Jun  4 10:23:45] ERROR[1] res_config_sqlite3.c: Missing config file 'res_config_sqlite3.conf'
+[Jun  4 10:23:45] ERROR[1] config_options.c: Unable to load config file 'statsd.conf'
+[Jun  4 10:23:45] NOTICE[1] res_statsd.c: Could not load statsd config; using defaults
+[Jun  4 10:23:45] WARNING[1] ccss.c: Could not find valid ccss.conf file. Using cc_max_requests and devstate defaults
+[Jun  4 10:23:45] ERROR[1] config_options.c: Unable to load config file 'cdr.conf'
+[Jun  4 10:23:45] NOTICE[1] cdr.c: Failed to process CDR configuration; using defaults
+[Jun  4 10:23:45] NOTICE[1] cdr.c: CDR simple logging enabled.
+[Jun  4 10:23:45] ERROR[1] config_options.c: Unable to load config file 'cel.conf'
+[Jun  4 10:23:45] NOTICE[1] cel.c: Failed to process CEL configuration; using defaults
+[Jun  4 10:23:45] ERROR[1] config_options.c: Unable to load config file 'features.conf'
+[Jun  4 10:23:45] NOTICE[1] features_config.c: Could not load features config; using defaults
+[Jun  4 10:23:45] WARNING[1] indications.c: Can't find indications config file indications.conf.
+[Jun  4 10:23:45] ERROR[1] config_options.c: Unable to load config file 'acl.conf'
+[Jun  4 10:23:45] NOTICE[1] manager.c: Unable to open AMI configuration manager.conf, or configuration is invalid.
+[Jun  4 10:23:45] ERROR[1] config_options.c: Unable to load config file 'udptl.conf'
+[Jun  4 10:23:45] NOTICE[1] udptl.c: Could not load udptl config; using defaults
+[Jun  4 10:23:45] ERROR[1] res_sorcery_config.c: Unable to load config file 'geolocation.conf'
+[Jun  4 10:23:45] ERROR[1] res_sorcery_config.c: Unable to load config file 'geolocation.conf'
+[Jun  4 10:23:45] ERROR[1] res_sorcery_config.c: Unable to load config file 'pjproject.conf'
+[Jun  4 10:23:45] ERROR[1] res_pjsip_config_wizard.c: Unable to load config file 'pjsip_wizard.conf'
+[Jun  4 10:23:45] ERROR[1] res_pjsip_config_wizard.c: Unable to load config file 'pjsip_wizard.conf'
+[Jun  4 10:23:45] ERROR[1] res_pjsip/config_transport.c: Transport 'transport-udp' could not be started: Cannot assign requested address
+[Jun  4 10:23:45] ERROR[1] res_sorcery_config.c: Could not create an object of type 'transport' with id 'transport-udp' from configuration file 'pjsip.conf'
+[Jun  4 10:23:45] ERROR[1] res_pjsip_config_wizard.c: Unable to load config file 'pjsip_wizard.conf'
+[Jun  4 10:23:45] ERROR[1] res_pjsip_config_wizard.c: Unable to load config file 'pjsip_wizard.conf'
+[Jun  4 10:23:45] WARNING[1] res_stun_monitor.c: Unable to load config res_stun_monitor.conf
+[Jun  4 10:23:45] WARNING[1] res_musiconhold.c: No music on hold classes configured, disabling music on hold.
+[Jun  4 10:23:45] ERROR[1] res_sorcery_config.c: Unable to load config file 'aeap.conf'
+[Jun  4 10:23:45] ERROR[1] res_phoneprov.c: Unable to load config phoneprov.conf
+[Jun  4 10:23:45] ERROR[1] res_phoneprov.c: Unable to load provisioning profiles.
+[Jun  4 10:23:45] ERROR[1] res_sorcery_config.c: Unable to load config file 'websocket_client.conf'
+[Jun  4 10:23:45] NOTICE[1] res_smdi.c: Unable to load config smdi.conf: SMDI disabled
+[Jun  4 10:23:45] NOTICE[1] res_smdi.c: No SMDI interfaces are available to listen on, not starting SMDI listener.
+[Jun  4 10:23:45] ERROR[1] chan_iax2.c: Unable to load config iax.conf
+[Jun  4 10:23:45] NOTICE[1] chan_console.c: Unable to open configuration file console.conf!
+[Jun  4 10:23:45] ERROR[1] res_sorcery_config.c: Unable to load config file 'chan_websocket.conf'
+[Jun  4 10:23:45] ERROR[1] config_options.c: Unable to load config file 'hep.conf'
+[Jun  4 10:23:45] NOTICE[1] res_fax.c: Configuration file 'res_fax.conf' not found, using default options.
+[Jun  4 10:23:45] ERROR[1] res_sorcery_config.c: Unable to load config file 'ari.conf'
+[Jun  4 10:23:45] ERROR[1] res_sorcery_config.c: Unable to load config file 'ari.conf'
+[Jun  4 10:23:45] ERROR[1] res_sorcery_config.c: Unable to load config file 'ari.conf'
+[Jun  4 10:23:45] ERROR[1] res_pjsip_config_wizard.c: Unable to load config file 'pjsip_wizard.conf'
+[Jun  4 10:23:45] ERROR[1] config_options.c: Unable to load config file 'pjsip_notify.conf'
+[Jun  4 10:23:45] ERROR[1] res_calendar.c: Unable to load config calendar.conf
+[Jun  4 10:23:45] ERROR[1] config_options.c: Unable to load config file 'res_parking.conf'
+[Jun  4 10:23:45] ERROR[1] config_options.c: Unable to load config file 'agents.conf'
+[Jun  4 10:23:45] ERROR[1] app_agent_pool.c: Unable to load config. Not loading module.
+[Jun  4 10:23:45] ERROR[1] config_options.c: Unable to load config file 'confbridge.conf'
+[Jun  4 10:23:45] ERROR[1] app_confbridge.c: Unable to load config. Not loading module.
+[Jun  4 10:23:45] WARNING[1] cdr_manager.c: Failed to load configuration file. Module not activated.
+[Jun  4 10:23:45] WARNING[1] cdr_pgsql.c: Unable to load config for PostgreSQL CDR's: cdr_pgsql.conf
+[Jun  4 10:23:45] WARNING[1] cel_manager.c: Failed to load configuration file. CEL manager Module not activated.
+[Jun  4 10:23:45] WARNING[1] cdr_csv.c: unable to load config: cdr.conf
+[Jun  4 10:23:45] WARNING[1] cel_pgsql.c: Unable to load config for PostgreSQL CEL's: cel_pgsql.conf
+[Jun  4 10:23:45] ERROR[1] cdrel_custom/config.c: Unable to load cdr_sqlite3_custom.conf. Not logging CDRs to custom database
+[Jun  4 10:23:45] ERROR[1] cdrel_custom/config.c: Unable to load cdr_custom.conf. Not logging CDRs to custom files
+[Jun  4 10:23:45] ERROR[1] cdrel_custom/config.c: Unable to load cel_custom.conf. Not logging CELs to custom files
+[Jun  4 10:23:45] ERROR[1] cdrel_custom/config.c: Unable to load cel_sqlite3_custom.conf. Not logging CELs to custom database
+[Jun  4 10:23:45] WARNING[1] app_minivm.c: Failed to load configuration file. Module activated with default settings.
+[Jun  4 10:23:45] WARNING[1] app_followme.c: No follow me config file (followme.conf), so no follow me
+[Jun  4 10:23:46] ERROR[1] config_options.c: Unable to load config file 'res_http_media_cache.conf'
+[Jun  4 10:23:46] NOTICE[1] res_http_media_cache.c: Could not load res_http_media_cache config; using defaults
+[Jun  4 10:23:46] ERROR[1] app_amd.c: Configuration file amd.conf missing.
+[Jun  4 10:23:46] ERROR[1] chan_unistim.c: Unable to load config unistim.conf
+[Jun  4 10:23:46] ERROR[1] res_clialiases.c: res_clialiases configuration file 'cli_aliases.conf' not found
+[Jun  4 10:23:46] NOTICE[1] pbx_ael.c: File /etc/asterisk/extensions.ael not found; AEL declining load
+[Jun  4 10:23:46] ERROR[1] pbx_dundi.c: Unable to load config dundi.conf
+[Jun  4 10:23:46] ERROR[1] config_options.c: Unable to load config file 'prometheus.conf'
+[Jun  4 10:23:46] NOTICE[1] app_queue.c: No queuerules.conf file found, queues will not follow penalty rules
+[Jun  4 10:23:46] NOTICE[1] app_queue.c: No call queueing config file (queues.conf), so no call queues
+[Jun  4 10:23:46] WARNING[1] loader.c: Some non-required modules failed to load.
+[Jun  4 10:23:46] WARNING[1] loader.c: Module 'res_adsi' has been loaded but may be removed in a future release.
+[Jun  4 10:23:46] WARNING[1] loader.c: Module 'app_adsiprog' has been loaded but may be removed in a future release.
+[Jun  4 10:23:46] WARNING[1] loader.c: Module 'app_getcpeid' has been loaded but may be removed in a future release.
+[Jun  4 10:23:46] ERROR[1] loader.c: Error loading module 'format_ogg_vorbis.so': libvorbisenc.so.2: cannot open shared object file: No such file or directory
+[Jun  4 10:23:46] ERROR[1] loader.c: res_odbc declined to load.
+[Jun  4 10:23:46] ERROR[1] loader.c: Declined modules which depend on res_odbc: res_config_odbc, cel_odbc, cdr_odbc, cdr_adaptive_odbc, func_odbc
+[Jun  4 10:23:46] ERROR[1] loader.c: res_config_pgsql declined to load.
+[Jun  4 10:23:46] ERROR[1] loader.c: res_stun_monitor declined to load.
+[Jun  4 10:23:46] ERROR[1] loader.c: res_phoneprov declined to load.
+[Jun  4 10:23:46] ERROR[1] loader.c: Declined modules which depend on res_phoneprov: res_pjsip_phoneprov_provider
+[Jun  4 10:23:46] ERROR[1] loader.c: chan_iax2 declined to load.
+[Jun  4 10:23:46] ERROR[1] loader.c: chan_console declined to load.
+[Jun  4 10:23:46] ERROR[1] loader.c: res_hep declined to load.
+[Jun  4 10:23:46] ERROR[1] loader.c: Declined modules which depend on res_hep: res_hep_rtcp, res_hep_pjsip
+[Jun  4 10:23:46] ERROR[1] loader.c: res_pjsip_notify declined to load.
+[Jun  4 10:23:46] ERROR[1] loader.c: res_calendar declined to load.
+[Jun  4 10:23:46] ERROR[1] loader.c: res_parking declined to load.
+[Jun  4 10:23:46] ERROR[1] loader.c: app_agent_pool declined to load.
+[Jun  4 10:23:46] ERROR[1] loader.c: app_confbridge declined to load.
+[Jun  4 10:23:46] ERROR[1] loader.c: Declined modules which depend on app_confbridge: app_page
+[Jun  4 10:23:46] ERROR[1] loader.c: cdr_manager declined to load.
+[Jun  4 10:23:46] ERROR[1] loader.c: cdr_pgsql declined to load.
+[Jun  4 10:23:46] ERROR[1] loader.c: cel_manager declined to load.
+[Jun  4 10:23:46] ERROR[1] loader.c: cdr_csv declined to load.
+[Jun  4 10:23:46] ERROR[1] loader.c: cel_pgsql declined to load.
+[Jun  4 10:23:46] ERROR[1] loader.c: cdr_sqlite3_custom declined to load.
+[Jun  4 10:23:46] ERROR[1] loader.c: cdr_custom declined to load.
+[Jun  4 10:23:46] ERROR[1] loader.c: cel_custom declined to load.
+[Jun  4 10:23:46] ERROR[1] loader.c: cel_sqlite3_custom declined to load.
+[Jun  4 10:23:46] ERROR[1] loader.c: app_followme declined to load.
+[Jun  4 10:23:46] ERROR[1] loader.c: app_amd declined to load.
+[Jun  4 10:23:46] ERROR[1] loader.c: chan_unistim declined to load.
+[Jun  4 10:23:46] ERROR[1] loader.c: app_alarmreceiver declined to load.
+[Jun  4 10:23:46] ERROR[1] loader.c: pbx_ael declined to load.
+[Jun  4 10:23:46] ERROR[1] loader.c: pbx_dundi declined to load.
+[Jun  4 10:23:46] ERROR[1] loader.c: res_prometheus declined to load.
+[Jun  4 10:23:46] ERROR[1] loader.c: app_queue declined to load.
+[Jun  5 13:51:02] Asterisk 22.9.0 built by root @ buildkitsandbox on a aarch64 running Linux on 2026-05-27 09:07:27 UTC
+[Jun  5 13:51:02] NOTICE[1] loader.c: 340 modules will be loaded.
+[Jun  5 13:51:02] WARNING[1] res_odbc.c: Unable to load config file res_odbc.conf
+[Jun  5 13:51:02] WARNING[1] res_config_pgsql.c: Unable to load config res_pgsql.conf
+[Jun  5 13:51:02] ERROR[1] res_config_ldap.c: Cannot load configuration file: res_ldap.conf
+[Jun  5 13:51:02] ERROR[1] res_config_ldap.c: Cannot load LDAP RealTime driver.
+[Jun  5 13:51:02] ERROR[1] res_config_sqlite3.c: Missing config file 'res_config_sqlite3.conf'
+[Jun  5 13:51:02] ERROR[1] config_options.c: Unable to load config file 'statsd.conf'
+[Jun  5 13:51:02] NOTICE[1] res_statsd.c: Could not load statsd config; using defaults
+[Jun  5 13:51:02] WARNING[1] ccss.c: Could not find valid ccss.conf file. Using cc_max_requests and devstate defaults
+[Jun  5 13:51:02] ERROR[1] config_options.c: Unable to load config file 'cdr.conf'
+[Jun  5 13:51:02] NOTICE[1] cdr.c: Failed to process CDR configuration; using defaults
+[Jun  5 13:51:02] NOTICE[1] cdr.c: CDR simple logging enabled.
+[Jun  5 13:51:02] ERROR[1] config_options.c: Unable to load config file 'cel.conf'
+[Jun  5 13:51:02] NOTICE[1] cel.c: Failed to process CEL configuration; using defaults
+[Jun  5 13:51:02] ERROR[1] config_options.c: Unable to load config file 'features.conf'
+[Jun  5 13:51:02] NOTICE[1] features_config.c: Could not load features config; using defaults
+[Jun  5 13:51:02] WARNING[1] indications.c: Can't find indications config file indications.conf.
+[Jun  5 13:51:02] ERROR[1] config_options.c: Unable to load config file 'acl.conf'
+[Jun  5 13:51:02] NOTICE[1] manager.c: Unable to open AMI configuration manager.conf, or configuration is invalid.
+[Jun  5 13:51:02] ERROR[1] config_options.c: Unable to load config file 'udptl.conf'
+[Jun  5 13:51:02] NOTICE[1] udptl.c: Could not load udptl config; using defaults
+[Jun  5 13:51:02] ERROR[1] res_sorcery_config.c: Unable to load config file 'geolocation.conf'
+[Jun  5 13:51:02] ERROR[1] res_sorcery_config.c: Unable to load config file 'geolocation.conf'
+[Jun  5 13:51:02] ERROR[1] res_sorcery_config.c: Unable to load config file 'pjproject.conf'
+[Jun  5 13:51:02] ERROR[1] res_pjsip_config_wizard.c: Unable to load config file 'pjsip_wizard.conf'
+[Jun  5 13:51:02] ERROR[1] res_pjsip_config_wizard.c: Unable to load config file 'pjsip_wizard.conf'
+[Jun  5 13:51:02] ERROR[1] res_pjsip_config_wizard.c: Unable to load config file 'pjsip_wizard.conf'
+[Jun  5 13:51:02] ERROR[1] res_pjsip_config_wizard.c: Unable to load config file 'pjsip_wizard.conf'
+[Jun  5 13:51:02] WARNING[1] res_stun_monitor.c: Unable to load config res_stun_monitor.conf
+[Jun  5 13:51:02] WARNING[1] res_musiconhold.c: No music on hold classes configured, disabling music on hold.
+[Jun  5 13:51:02] ERROR[1] res_sorcery_config.c: Unable to load config file 'aeap.conf'
+[Jun  5 13:51:02] ERROR[1] res_phoneprov.c: Unable to load config phoneprov.conf
+[Jun  5 13:51:02] ERROR[1] res_phoneprov.c: Unable to load provisioning profiles.
+[Jun  5 13:51:02] ERROR[1] res_sorcery_config.c: Unable to load config file 'websocket_client.conf'
+[Jun  5 13:51:02] NOTICE[1] res_smdi.c: Unable to load config smdi.conf: SMDI disabled
+[Jun  5 13:51:02] NOTICE[1] res_smdi.c: No SMDI interfaces are available to listen on, not starting SMDI listener.
+[Jun  5 13:51:02] ERROR[1] chan_iax2.c: Unable to load config iax.conf
+[Jun  5 13:51:02] NOTICE[1] chan_console.c: Unable to open configuration file console.conf!
+[Jun  5 13:51:02] ERROR[1] res_sorcery_config.c: Unable to load config file 'chan_websocket.conf'
+[Jun  5 13:51:02] ERROR[1] config_options.c: Unable to load config file 'hep.conf'
+[Jun  5 13:51:02] NOTICE[1] res_fax.c: Configuration file 'res_fax.conf' not found, using default options.
+[Jun  5 13:51:02] ERROR[1] res_sorcery_config.c: Unable to load config file 'ari.conf'
+[Jun  5 13:51:02] ERROR[1] res_sorcery_config.c: Unable to load config file 'ari.conf'
+[Jun  5 13:51:02] ERROR[1] res_sorcery_config.c: Unable to load config file 'ari.conf'
+[Jun  5 13:51:02] ERROR[1] res_pjsip_config_wizard.c: Unable to load config file 'pjsip_wizard.conf'
+[Jun  5 13:51:02] ERROR[1] config_options.c: Unable to load config file 'pjsip_notify.conf'
+[Jun  5 13:51:02] ERROR[1] res_calendar.c: Unable to load config calendar.conf
+[Jun  5 13:51:02] ERROR[1] config_options.c: Unable to load config file 'res_parking.conf'
+[Jun  5 13:51:02] ERROR[1] config_options.c: Unable to load config file 'agents.conf'
+[Jun  5 13:51:02] ERROR[1] app_agent_pool.c: Unable to load config. Not loading module.
+[Jun  5 13:51:02] ERROR[1] config_options.c: Unable to load config file 'confbridge.conf'
+[Jun  5 13:51:02] ERROR[1] app_confbridge.c: Unable to load config. Not loading module.
+[Jun  5 13:51:02] WARNING[1] cdr_manager.c: Failed to load configuration file. Module not activated.
+[Jun  5 13:51:02] WARNING[1] cdr_pgsql.c: Unable to load config for PostgreSQL CDR's: cdr_pgsql.conf
+[Jun  5 13:51:02] WARNING[1] cel_manager.c: Failed to load configuration file. CEL manager Module not activated.
+[Jun  5 13:51:02] WARNING[1] cdr_csv.c: unable to load config: cdr.conf
+[Jun  5 13:51:02] WARNING[1] cel_pgsql.c: Unable to load config for PostgreSQL CEL's: cel_pgsql.conf
+[Jun  5 13:51:02] ERROR[1] cdrel_custom/config.c: Unable to load cdr_sqlite3_custom.conf. Not logging CDRs to custom database
+[Jun  5 13:51:02] ERROR[1] cdrel_custom/config.c: Unable to load cdr_custom.conf. Not logging CDRs to custom files
+[Jun  5 13:51:02] ERROR[1] cdrel_custom/config.c: Unable to load cel_custom.conf. Not logging CELs to custom files
+[Jun  5 13:51:02] ERROR[1] cdrel_custom/config.c: Unable to load cel_sqlite3_custom.conf. Not logging CELs to custom database
+[Jun  5 13:51:02] WARNING[1] app_minivm.c: Failed to load configuration file. Module activated with default settings.
+[Jun  5 13:51:02] WARNING[1] app_followme.c: No follow me config file (followme.conf), so no follow me
+[Jun  5 13:51:02] ERROR[1] config_options.c: Unable to load config file 'res_http_media_cache.conf'
+[Jun  5 13:51:02] NOTICE[1] res_http_media_cache.c: Could not load res_http_media_cache config; using defaults
+[Jun  5 13:51:02] ERROR[1] app_amd.c: Configuration file amd.conf missing.
+[Jun  5 13:51:02] ERROR[1] chan_unistim.c: Unable to load config unistim.conf
+[Jun  5 13:51:02] ERROR[1] res_clialiases.c: res_clialiases configuration file 'cli_aliases.conf' not found
+[Jun  5 13:51:02] NOTICE[1] pbx_ael.c: File /etc/asterisk/extensions.ael not found; AEL declining load
+[Jun  5 13:51:02] ERROR[1] pbx_dundi.c: Unable to load config dundi.conf
+[Jun  5 13:51:02] ERROR[1] config_options.c: Unable to load config file 'prometheus.conf'
+[Jun  5 13:51:02] NOTICE[1] app_queue.c: No queuerules.conf file found, queues will not follow penalty rules
+[Jun  5 13:51:02] NOTICE[1] app_queue.c: No call queueing config file (queues.conf), so no call queues
+[Jun  5 13:51:02] WARNING[1] loader.c: Some non-required modules failed to load.
+[Jun  5 13:51:02] WARNING[1] loader.c: Module 'res_adsi' has been loaded but may be removed in a future release.
+[Jun  5 13:51:02] WARNING[1] loader.c: Module 'app_adsiprog' has been loaded but may be removed in a future release.
+[Jun  5 13:51:02] WARNING[1] loader.c: Module 'app_getcpeid' has been loaded but may be removed in a future release.
+[Jun  5 13:51:02] ERROR[1] loader.c: Error loading module 'format_ogg_vorbis.so': libvorbisenc.so.2: cannot open shared object file: No such file or directory
+[Jun  5 13:51:02] ERROR[1] loader.c: res_odbc declined to load.
+[Jun  5 13:51:02] ERROR[1] loader.c: Declined modules which depend on res_odbc: res_config_odbc, cel_odbc, cdr_odbc, cdr_adaptive_odbc, func_odbc
+[Jun  5 13:51:02] ERROR[1] loader.c: res_config_pgsql declined to load.
+[Jun  5 13:51:02] ERROR[1] loader.c: res_stun_monitor declined to load.
+[Jun  5 13:51:02] ERROR[1] loader.c: res_phoneprov declined to load.
+[Jun  5 13:51:02] ERROR[1] loader.c: Declined modules which depend on res_phoneprov: res_pjsip_phoneprov_provider
+[Jun  5 13:51:02] ERROR[1] loader.c: chan_iax2 declined to load.
+[Jun  5 13:51:02] ERROR[1] loader.c: chan_console declined to load.
+[Jun  5 13:51:02] ERROR[1] loader.c: res_hep declined to load.
+[Jun  5 13:51:02] ERROR[1] loader.c: Declined modules which depend on res_hep: res_hep_rtcp, res_hep_pjsip
+[Jun  5 13:51:02] ERROR[1] loader.c: res_pjsip_notify declined to load.
+[Jun  5 13:51:02] ERROR[1] loader.c: res_calendar declined to load.
+[Jun  5 13:51:02] ERROR[1] loader.c: res_parking declined to load.
+[Jun  5 13:51:02] ERROR[1] loader.c: app_agent_pool declined to load.
+[Jun  5 13:51:02] ERROR[1] loader.c: app_confbridge declined to load.
+[Jun  5 13:51:02] ERROR[1] loader.c: Declined modules which depend on app_confbridge: app_page
+[Jun  5 13:51:02] ERROR[1] loader.c: cdr_manager declined to load.
+[Jun  5 13:51:02] ERROR[1] loader.c: cdr_pgsql declined to load.
+[Jun  5 13:51:02] ERROR[1] loader.c: cel_manager declined to load.
+[Jun  5 13:51:02] ERROR[1] loader.c: cdr_csv declined to load.
+[Jun  5 13:51:02] ERROR[1] loader.c: cel_pgsql declined to load.
+[Jun  5 13:51:02] ERROR[1] loader.c: cdr_sqlite3_custom declined to load.
+[Jun  5 13:51:02] ERROR[1] loader.c: cdr_custom declined to load.
+[Jun  5 13:51:02] ERROR[1] loader.c: cel_custom declined to load.
+[Jun  5 13:51:02] ERROR[1] loader.c: cel_sqlite3_custom declined to load.
+[Jun  5 13:51:02] ERROR[1] loader.c: app_followme declined to load.
+[Jun  5 13:51:02] ERROR[1] loader.c: app_amd declined to load.
+[Jun  5 13:51:02] ERROR[1] loader.c: chan_unistim declined to load.
+[Jun  5 13:51:02] ERROR[1] loader.c: app_alarmreceiver declined to load.
+[Jun  5 13:51:02] ERROR[1] loader.c: pbx_ael declined to load.
+[Jun  5 13:51:02] ERROR[1] loader.c: pbx_dundi declined to load.
+[Jun  5 13:51:02] ERROR[1] loader.c: res_prometheus declined to load.
+[Jun  5 13:51:02] ERROR[1] loader.c: app_queue declined to load.
+[Jun  5 13:52:46] ERROR[46] res_pjsip.c: Endpoint '1001': Could not create dialog to invalid URI '1001'.  Is endpoint registered and reachable?
+[Jun  5 13:52:46] ERROR[46] chan_pjsip.c: Failed to create outgoing session to endpoint '1001'
+[Jun  5 13:52:46] NOTICE[224][C-00000002] app_dial.c: Unable to create channel of type 'PJSIP' (cause 3 - No route to destination)
+[Jun  5 13:53:27] ERROR[46] res_pjsip.c: Endpoint '6002': Could not create dialog to invalid URI '6002'.  Is endpoint registered and reachable?
+[Jun  5 13:53:27] ERROR[46] chan_pjsip.c: Failed to create outgoing session to endpoint '6002'
+[Jun  5 13:53:27] NOTICE[264][C-00000004] app_dial.c: Unable to create channel of type 'PJSIP' (cause 3 - No route to destination)
+[Jun  5 13:53:27] WARNING[264][C-00000004] file.c: File vm-theperson does not exist in any format
+[Jun  5 13:53:27] WARNING[264][C-00000004] file.c: Unable to open vm-theperson (format (ulaw)): No such file or directory
+[Jun  5 13:53:57] ERROR[46] res_pjsip.c: Endpoint '1002': Could not create dialog to invalid URI '1002'.  Is endpoint registered and reachable?
+[Jun  5 13:53:57] ERROR[46] chan_pjsip.c: Failed to create outgoing session to endpoint '1002'
+[Jun  5 13:53:57] NOTICE[303][C-00000005] app_dial.c: Unable to create channel of type 'PJSIP' (cause 3 - No route to destination)
+[Jun  5 13:54:34] ERROR[46] res_pjsip.c: Endpoint '6002': Could not create dialog to invalid URI '6002'.  Is endpoint registered and reachable?
+[Jun  5 13:54:34] ERROR[46] chan_pjsip.c: Failed to create outgoing session to endpoint '6002'
+[Jun  5 13:54:34] NOTICE[342][C-00000006] app_dial.c: Unable to create channel of type 'PJSIP' (cause 3 - No route to destination)
+[Jun  5 13:54:34] WARNING[342][C-00000006] file.c: File vm-theperson does not exist in any format
+[Jun  5 13:54:34] WARNING[342][C-00000006] file.c: Unable to open vm-theperson (format (ulaw)): No such file or directory
+[Jun  5 13:58:48] ERROR[46] res_pjsip.c: Endpoint '6002': Could not create dialog to invalid URI '6002'.  Is endpoint registered and reachable?
+[Jun  5 13:58:48] ERROR[46] chan_pjsip.c: Failed to create outgoing session to endpoint '6002'
+[Jun  5 13:58:48] NOTICE[687][C-00000009] app_dial.c: Unable to create channel of type 'PJSIP' (cause 3 - No route to destination)
+[Jun  5 13:58:48] WARNING[687][C-00000009] file.c: File vm-theperson does not exist in any format
+[Jun  5 13:58:48] WARNING[687][C-00000009] file.c: Unable to open vm-theperson (format (ulaw)): No such file or directory
+[Jun  5 13:59:40] WARNING[726][C-0000000a] file.c: File vm-theperson does not exist in any format
+[Jun  5 13:59:40] WARNING[726][C-0000000a] file.c: Unable to open vm-theperson (format (ulaw)): No such file or directory
+[Jun  5 14:15:27] ERROR[46] res_pjsip_config_wizard.c: Unable to load config file 'pjsip_wizard.conf'
+[Jun  5 14:15:27] ERROR[46] res_pjsip_config_wizard.c: Unable to load config file 'pjsip_wizard.conf'
+[Jun  5 14:15:27] ERROR[46] res_pjsip_config_wizard.c: Unable to load config file 'pjsip_wizard.conf'
+[Jun  5 14:15:27] ERROR[46] res_pjsip_config_wizard.c: Unable to load config file 'pjsip_wizard.conf'
+[Jun  5 14:15:27] NOTICE[46] sorcery.c: Type 'system' is not reloadable, maintaining previous values
+[Jun  5 14:15:27] ERROR[46] res_pjsip_config_wizard.c: Unable to load config file 'pjsip_wizard.conf'
+[Jun  5 14:18:45] WARNING[46] res_pjsip_registrar.c: Registration attempt from endpoint '6002' (192.168.120.101:49366) to AOR '6002' will exceed max contacts of 1
+[Jun  5 14:52:26] Asterisk 22.9.0 built by root @ buildkitsandbox on a aarch64 running Linux on 2026-05-27 09:07:27 UTC
+[Jun  5 14:52:26] NOTICE[1] loader.c: 340 modules will be loaded.
+[Jun  5 14:52:27] WARNING[1] res_odbc.c: Unable to load config file res_odbc.conf
+[Jun  5 14:52:27] WARNING[1] res_config_pgsql.c: Unable to load config res_pgsql.conf
+[Jun  5 14:52:27] ERROR[1] res_config_ldap.c: Cannot load configuration file: res_ldap.conf
+[Jun  5 14:52:27] ERROR[1] res_config_ldap.c: Cannot load LDAP RealTime driver.
+[Jun  5 14:52:27] ERROR[1] res_config_sqlite3.c: Missing config file 'res_config_sqlite3.conf'
+[Jun  5 14:52:27] ERROR[1] config_options.c: Unable to load config file 'statsd.conf'
+[Jun  5 14:52:27] NOTICE[1] res_statsd.c: Could not load statsd config; using defaults
+[Jun  5 14:52:27] WARNING[1] ccss.c: Could not find valid ccss.conf file. Using cc_max_requests and devstate defaults
+[Jun  5 14:52:27] ERROR[1] config_options.c: Unable to load config file 'cdr.conf'
+[Jun  5 14:52:27] NOTICE[1] cdr.c: Failed to process CDR configuration; using defaults
+[Jun  5 14:52:27] NOTICE[1] cdr.c: CDR simple logging enabled.
+[Jun  5 14:52:27] ERROR[1] config_options.c: Unable to load config file 'cel.conf'
+[Jun  5 14:52:27] NOTICE[1] cel.c: Failed to process CEL configuration; using defaults
+[Jun  5 14:52:27] ERROR[1] config_options.c: Unable to load config file 'features.conf'
+[Jun  5 14:52:27] NOTICE[1] features_config.c: Could not load features config; using defaults
+[Jun  5 14:52:27] WARNING[1] indications.c: Can't find indications config file indications.conf.
+[Jun  5 14:52:27] ERROR[1] config_options.c: Unable to load config file 'acl.conf'
+[Jun  5 14:52:27] NOTICE[1] manager.c: Unable to open AMI configuration manager.conf, or configuration is invalid.
+[Jun  5 14:52:27] ERROR[1] config_options.c: Unable to load config file 'udptl.conf'
+[Jun  5 14:52:27] NOTICE[1] udptl.c: Could not load udptl config; using defaults
+[Jun  5 14:52:27] ERROR[1] res_sorcery_config.c: Unable to load config file 'geolocation.conf'
+[Jun  5 14:52:27] ERROR[1] res_sorcery_config.c: Unable to load config file 'geolocation.conf'
+[Jun  5 14:52:27] ERROR[1] res_sorcery_config.c: Unable to load config file 'pjproject.conf'
+[Jun  5 14:52:27] ERROR[1] res_pjsip_config_wizard.c: Unable to load config file 'pjsip_wizard.conf'
+[Jun  5 14:52:27] ERROR[1] res_pjsip_config_wizard.c: Unable to load config file 'pjsip_wizard.conf'
+[Jun  5 14:52:27] ERROR[1] res_pjsip/config_transport.c: Transport 'transport-udp' could not be started: Cannot assign requested address
+[Jun  5 14:52:27] ERROR[1] res_sorcery_config.c: Could not create an object of type 'transport' with id 'transport-udp' from configuration file 'pjsip.conf'
+[Jun  5 14:52:27] ERROR[1] res_pjsip_config_wizard.c: Unable to load config file 'pjsip_wizard.conf'
+[Jun  5 14:52:27] ERROR[1] res_pjsip_config_wizard.c: Unable to load config file 'pjsip_wizard.conf'
+[Jun  5 14:52:27] WARNING[1] res_stun_monitor.c: Unable to load config res_stun_monitor.conf
+[Jun  5 14:52:27] WARNING[1] res_musiconhold.c: No music on hold classes configured, disabling music on hold.
+[Jun  5 14:52:28] ERROR[1] res_sorcery_config.c: Unable to load config file 'aeap.conf'
+[Jun  5 14:52:28] ERROR[1] res_phoneprov.c: Unable to load config phoneprov.conf
+[Jun  5 14:52:28] ERROR[1] res_phoneprov.c: Unable to load provisioning profiles.
+[Jun  5 14:52:28] ERROR[1] res_sorcery_config.c: Unable to load config file 'websocket_client.conf'
+[Jun  5 14:52:28] NOTICE[1] res_smdi.c: Unable to load config smdi.conf: SMDI disabled
+[Jun  5 14:52:28] NOTICE[1] res_smdi.c: No SMDI interfaces are available to listen on, not starting SMDI listener.
+[Jun  5 14:52:28] ERROR[1] chan_iax2.c: Unable to load config iax.conf
+[Jun  5 14:52:28] NOTICE[1] chan_console.c: Unable to open configuration file console.conf!
+[Jun  5 14:52:28] ERROR[1] res_sorcery_config.c: Unable to load config file 'chan_websocket.conf'
+[Jun  5 14:52:28] ERROR[1] config_options.c: Unable to load config file 'hep.conf'
+[Jun  5 14:52:28] NOTICE[1] res_fax.c: Configuration file 'res_fax.conf' not found, using default options.
+[Jun  5 14:52:28] ERROR[1] res_sorcery_config.c: Unable to load config file 'ari.conf'
+[Jun  5 14:52:28] ERROR[1] res_sorcery_config.c: Unable to load config file 'ari.conf'
+[Jun  5 14:52:28] ERROR[1] res_sorcery_config.c: Unable to load config file 'ari.conf'
+[Jun  5 14:52:28] ERROR[1] res_pjsip_config_wizard.c: Unable to load config file 'pjsip_wizard.conf'
+[Jun  5 14:52:28] ERROR[1] config_options.c: Unable to load config file 'pjsip_notify.conf'
+[Jun  5 14:52:28] ERROR[1] res_calendar.c: Unable to load config calendar.conf
+[Jun  5 14:52:28] ERROR[1] config_options.c: Unable to load config file 'res_parking.conf'
+[Jun  5 14:52:28] ERROR[1] config_options.c: Unable to load config file 'agents.conf'
+[Jun  5 14:52:28] ERROR[1] app_agent_pool.c: Unable to load config. Not loading module.
+[Jun  5 14:52:28] ERROR[1] config_options.c: Unable to load config file 'confbridge.conf'
+[Jun  5 14:52:28] ERROR[1] app_confbridge.c: Unable to load config. Not loading module.
+[Jun  5 14:52:28] WARNING[1] cdr_manager.c: Failed to load configuration file. Module not activated.
+[Jun  5 14:52:28] WARNING[1] cdr_pgsql.c: Unable to load config for PostgreSQL CDR's: cdr_pgsql.conf
+[Jun  5 14:52:28] WARNING[1] cel_manager.c: Failed to load configuration file. CEL manager Module not activated.
+[Jun  5 14:52:28] WARNING[1] cdr_csv.c: unable to load config: cdr.conf
+[Jun  5 14:52:28] WARNING[1] cel_pgsql.c: Unable to load config for PostgreSQL CEL's: cel_pgsql.conf
+[Jun  5 14:52:28] ERROR[1] cdrel_custom/config.c: Unable to load cdr_sqlite3_custom.conf. Not logging CDRs to custom database
+[Jun  5 14:52:28] ERROR[1] cdrel_custom/config.c: Unable to load cdr_custom.conf. Not logging CDRs to custom files
+[Jun  5 14:52:28] ERROR[1] cdrel_custom/config.c: Unable to load cel_custom.conf. Not logging CELs to custom files
+[Jun  5 14:52:28] ERROR[1] cdrel_custom/config.c: Unable to load cel_sqlite3_custom.conf. Not logging CELs to custom database
+[Jun  5 14:52:28] WARNING[1] app_minivm.c: Failed to load configuration file. Module activated with default settings.
+[Jun  5 14:52:28] WARNING[1] app_followme.c: No follow me config file (followme.conf), so no follow me
+[Jun  5 14:52:28] ERROR[1] config_options.c: Unable to load config file 'res_http_media_cache.conf'
+[Jun  5 14:52:28] NOTICE[1] res_http_media_cache.c: Could not load res_http_media_cache config; using defaults
+[Jun  5 14:52:28] ERROR[1] app_amd.c: Configuration file amd.conf missing.
+[Jun  5 14:52:28] ERROR[1] chan_unistim.c: Unable to load config unistim.conf
+[Jun  5 14:52:28] ERROR[1] res_clialiases.c: res_clialiases configuration file 'cli_aliases.conf' not found
+[Jun  5 14:52:28] NOTICE[1] pbx_ael.c: File /etc/asterisk/extensions.ael not found; AEL declining load
+[Jun  5 14:52:28] ERROR[1] pbx_dundi.c: Unable to load config dundi.conf
+[Jun  5 14:52:28] ERROR[1] config_options.c: Unable to load config file 'prometheus.conf'
+[Jun  5 14:52:28] NOTICE[1] app_queue.c: No queuerules.conf file found, queues will not follow penalty rules
+[Jun  5 14:52:28] NOTICE[1] app_queue.c: No call queueing config file (queues.conf), so no call queues
+[Jun  5 14:52:28] WARNING[1] loader.c: Some non-required modules failed to load.
+[Jun  5 14:52:28] WARNING[1] loader.c: Module 'res_adsi' has been loaded but may be removed in a future release.
+[Jun  5 14:52:28] WARNING[1] loader.c: Module 'app_adsiprog' has been loaded but may be removed in a future release.
+[Jun  5 14:52:28] WARNING[1] loader.c: Module 'app_getcpeid' has been loaded but may be removed in a future release.
+[Jun  5 14:52:28] ERROR[1] loader.c: Error loading module 'format_ogg_vorbis.so': libvorbisenc.so.2: cannot open shared object file: No such file or directory
+[Jun  5 14:52:28] ERROR[1] loader.c: res_odbc declined to load.
+[Jun  5 14:52:28] ERROR[1] loader.c: Declined modules which depend on res_odbc: res_config_odbc, cel_odbc, cdr_odbc, cdr_adaptive_odbc, func_odbc
+[Jun  5 14:52:28] ERROR[1] loader.c: res_config_pgsql declined to load.
+[Jun  5 14:52:28] ERROR[1] loader.c: res_stun_monitor declined to load.
+[Jun  5 14:52:28] ERROR[1] loader.c: res_phoneprov declined to load.
+[Jun  5 14:52:28] ERROR[1] loader.c: Declined modules which depend on res_phoneprov: res_pjsip_phoneprov_provider
+[Jun  5 14:52:28] ERROR[1] loader.c: chan_iax2 declined to load.
+[Jun  5 14:52:28] ERROR[1] loader.c: chan_console declined to load.
+[Jun  5 14:52:28] ERROR[1] loader.c: res_hep declined to load.
+[Jun  5 14:52:28] ERROR[1] loader.c: Declined modules which depend on res_hep: res_hep_rtcp, res_hep_pjsip
+[Jun  5 14:52:28] ERROR[1] loader.c: res_pjsip_notify declined to load.
+[Jun  5 14:52:28] ERROR[1] loader.c: res_calendar declined to load.
+[Jun  5 14:52:28] ERROR[1] loader.c: res_parking declined to load.
+[Jun  5 14:52:28] ERROR[1] loader.c: app_agent_pool declined to load.
+[Jun  5 14:52:28] ERROR[1] loader.c: app_confbridge declined to load.
+[Jun  5 14:52:28] ERROR[1] loader.c: Declined modules which depend on app_confbridge: app_page
+[Jun  5 14:52:28] ERROR[1] loader.c: cdr_manager declined to load.
+[Jun  5 14:52:28] ERROR[1] loader.c: cdr_pgsql declined to load.
+[Jun  5 14:52:28] ERROR[1] loader.c: cel_manager declined to load.
+[Jun  5 14:52:28] ERROR[1] loader.c: cdr_csv declined to load.
+[Jun  5 14:52:28] ERROR[1] loader.c: cel_pgsql declined to load.
+[Jun  5 14:52:28] ERROR[1] loader.c: cdr_sqlite3_custom declined to load.
+[Jun  5 14:52:28] ERROR[1] loader.c: cdr_custom declined to load.
+[Jun  5 14:52:28] ERROR[1] loader.c: cel_custom declined to load.
+[Jun  5 14:52:28] ERROR[1] loader.c: cel_sqlite3_custom declined to load.
+[Jun  5 14:52:28] ERROR[1] loader.c: app_followme declined to load.
+[Jun  5 14:52:28] ERROR[1] loader.c: app_amd declined to load.
+[Jun  5 14:52:28] ERROR[1] loader.c: chan_unistim declined to load.
+[Jun  5 14:52:28] ERROR[1] loader.c: app_alarmreceiver declined to load.
+[Jun  5 14:52:28] ERROR[1] loader.c: pbx_ael declined to load.
+[Jun  5 14:52:28] ERROR[1] loader.c: pbx_dundi declined to load.
+[Jun  5 14:52:28] ERROR[1] loader.c: res_prometheus declined to load.
+[Jun  5 14:52:28] ERROR[1] loader.c: app_queue declined to load.
