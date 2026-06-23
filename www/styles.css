@@ -1,0 +1,89 @@
+/* VS Code Basic Dark Theme Color Palette */
+
+:root {
+  --bg-primary: #1e1e1e;
+  --bg-secondary: #252526;
+  --bg-tertiary: #2d2d30;
+  --text-primary: #d4d4d4;
+  --text-secondary: #858585;
+  --text-muted: #6a6a6a;
+  --accent-blue: #569cd6;
+  --accent-green: #6a9955;
+  --accent-orange: #ce9178;
+  --accent-red: #f48771;
+  --accent-purple: #c586c0;
+  --accent-cyan: #4ec9b0;
+  --border: #3e3e42;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--accent-blue);
+  margin-bottom: 0.5em;
+}
+
+a {
+  color: var(--accent-blue);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button {
+  background-color: var(--bg-secondary);
+  color: var(--text-primary);
+  border: 1px solid var(--border);
+  padding: 0.5em 1em;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: var(--bg-tertiary);
+}
+
+code {
+  background-color: var(--bg-secondary);
+  color: var(--accent-orange);
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+  font-family: 'Courier New', monospace;
+}
+
+pre {
+  background-color: var(--bg-secondary);
+  color: var(--text-primary);
+  padding: 1em;
+  border-radius: 4px;
+  overflow-x: auto;
+}
+
+input, textarea {
+  background-color: var(--bg-secondary);
+  color: var(--text-primary);
+  border: 1px solid var(--border);
+  padding: 0.5em;
+  border-radius: 4px;
+  font-family: inherit;
+}
+
+input:focus, textarea:focus {
+  outline: none;
+  border-color: var(--accent-blue);
+  box-shadow: 0 0 0 2px rgba(86, 156, 214, 0.2);
+}
