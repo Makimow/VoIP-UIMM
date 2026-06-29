@@ -7,18 +7,85 @@
     <title>VoIP UIMM</title>
 </head>
 <body>
-<h1 class="premierTitre">VoIP UIMM - Présentation du projet</h1>
-<h2>Cahier des charges</h2>
-<p>Récapitulatif des exigences du projet.</p>
-<h2>Choix des technologies</h2>
-<p>Présentation des technologies choisies pour la réalisation du projet.</p>
-<h2>Réalisation</h2>
-<p>Détail de la réalisation du projet.</p>
-<h2>Conclusion</h2>
-<p>Résumé des résultats obtenus et perspectives d'amélioration.</p>
-</h2>
-<footer>
-    <p>&copy; 2023 VoIP UIMM. Tous droits réservés.</p>
-</footer>
+
+    <h1 class="premierTitre">VoIP UIMM - Présentation du projet</h1>
+
+    <h2>Cahier des charges</h2>
+    <p>
+        Le projet consiste à concevoir et mettre en place une infrastructure réseau multi-services pour une petite entreprise,
+        avec une solution de téléphonie IP (VoIP), une segmentation réseau par VLAN, et des services internes hébergés sur
+        des serveurs Raspberry Pi sous Docker. L’objectif est d’obtenir un réseau structuré, plus sécurisé et plus facile à administrer.
+    </p>
+    <ul>
+        <li>Mettre en place un réseau local fonctionnel avec adressage IP cohérent.</li>
+        <li>Segmenter le réseau en plusieurs VLAN pour séparer les postes utilisateurs et la téléphonie.</li>
+        <li>Déployer des services internes comme le web, le FTP et le DHCP.</li>
+        <li>Installer et configurer une solution VoIP basée sur Asterisk.</li>
+        <li>Permettre aux postes clients et aux téléphones IP ou softphones de communiquer correctement.</li>
+        <li>Garantir l’isolation entre les VLAN tout en autorisant les communications nécessaires.</li>
+        <li>Utiliser un routeur connecté à Internet, un switch manageable et deux Raspberry Pi comme serveurs.</li>
+        <li>Documenter l’installation, la configuration, les tests et les résultats obtenus.</li>
+    </ul>
+    <p>
+        Le réseau attendu repose sur un VLAN DATA pour les postes clients et un VLAN VOICE pour la téléphonie.
+        Les postes doivent obtenir automatiquement leur configuration réseau via DHCP, et les téléphones IP doivent pouvoir
+        enregistrer leurs extensions sur le serveur VoIP. Le projet doit également démontrer la mise en service des services
+        internes et la bonne séparation logique du trafic.
+    </p>
+
+    <h2>Choix des technologies</h2>
+    <p>
+        Pour cette partie, nous avons choisi : <strong>Catalyst 2950</strong>  comme switch manageable,
+        et 2 Raspberry Pi, <strong>voice-dhcp</strong> et <strong>web-dhcp</strong> pour héberger les services. Le système d’exploitation retenu est <strong>Debian 13 (trixie)</strong>.
+    </p>
+    <p>
+        La segmentation réseau a été réalisée avec <strong>PacketTracer</strong>, ce qui permet de séparer le trafic des postes utilisateurs
+        et celui de la téléphonie. Le service VoIP repose sur <strong></strong>Asterisk</strong>.
+    </p>
+    <p>
+        Les services internes sont fournis par <strong>Apache</strong> pour le web, <strong>vsftpd</strong> pour le FTP,
+        et <strong>ISC DHCP</strong> pour l’attribution automatique des adresses IP. Le déploiement est automatisé grâce à
+        Docker.
+    </p>
+
+    <h2>Réalisation</h2>
+    <p>
+        L’architecture a été mise en place selon le schéma suivant : </br> 
+        <img src="public/images/placeholder.webp" alt="Schéma du réseau"> </br> 
+        Le switch manageable permet d’isoler les différents flux réseau.
+    </p>
+    <p>
+        Sur le premier Raspberry Pi, nous avons installé <strong>httpd</strong>, <strong>delfer/alpine-ftp-server</strong> et <strong>networkboot/dhcpd</strong>.
+        Sur le second Raspberry Pi, nous avons déployé <strong>andrius/asterisk</strong> et <strong>networkboot/dhcpd</strong>.
+        Chaque service a été configuré avec une adresse IP fixe et des paramètres adaptés à son rôle.
+    </p>
+    <p>
+        La partie VoIP a consisté à configurer <strong>Asterisk</strong>, à créer les extensions <strong>6001, 6002 et 6003</strong>,
+        puis à effectuer des tests d’appel entre les différents postes. Les configurations réseau, les règles de sécurité
+        et les services Docker ont été vérifiés étape par étape afin de valider le bon fonctionnement global.
+    </p>
+    <p>
+        Les tests ont porté sur l’obtention d’une adresse IP via DHCP, l’accès au serveur web, la connexion FTP, la
+        communication entre VLAN et les appels téléphoniques IP. Les résultats ont montré que <strong>tout était fonctionnel</strong>.
+    </p>
+
+    <h2>Conclusion</h2>
+    <p>
+        Ce projet nous a permis de mettre en pratique des notions importantes en réseau, administration système et téléphonie IP.
+        Nous avons pu configurer un réseau segmenté, déployer des services internes et mettre en place une solution VoIP fonctionnelle.
+    </p>
+    <p>
+        Les principales difficultés rencontrées ont été <strong>la découverte pas à pas de Docker et Asterisk ainsi que la gestion d'erreurs relatives au DHCP et à la téléphonie IP</strong>. Pour les résoudre, nous avons
+        <strong>fait beaucoup de recherches et de tests réels pour s'adapter et analyser le fonctionnement de ces outils</strong>.
+    </p>
+    <p>
+        En amélioration future, nous pourrions ajouter <strong>Un troisième Raspberry Pi représentant un serveur de backup ou un service infra</strong>, renforcer la sécurité avec <strong>SSH sur le web</strong>,
+        ou encore automatiser davantage le déploiement avec <strong>des images Docker personnalisées</strong>.
+    </p>
+
+    <footer>
+        <p>&copy; 2023 VoIP UIMM. Tous droits réservés.</p>
+    </footer>
+
 </body>
 </html>
