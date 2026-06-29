@@ -25,55 +25,145 @@ interface FastEthernet0/1
  no shutdown
 exit
 !
-! --- PORT TRUNK VERS SERV WEB (Fa0/6) ---
-interface FastEthernet0/6
+! --- PORT TRUNK VERS SERV WEB (Fa0/2) ---
+interface FastEthernet0/2
+ switchport mode trunk
+ switchport trunk allowed vlan 10,20
+ no shutdown
+exit
+!
+! --- PORT TRUNK VERS SERV FTP (Fa0/3) ---
+interface FastEthernet0/3
+ switchport mode trunk
+ switchport trunk allowed vlan 10,20
+ no shutdown
+exit
+!
+! --- PORT VERS SERV DHCP VLAN20 (Fa0/4) ---
+interface FastEthernet0/4
  switchport mode access
  switchport access vlan 20
  no shutdown
 exit
 !
-! --- PORT TRUNK VERS SERV FTP (Fa0/7) ---
-interface FastEthernet0/7
- switchport mode access
- switchport access vlan 20
- no shutdown
-exit
-!
-! --- PORT VERS SERV DHCP VLAN20 (Fa0/8) ---
-interface FastEthernet0/8
- switchport mode access
- switchport access vlan 20
- no shutdown
-exit
-!
-! --- PORT VERS SERV DHCP VLAN10 (Fa0/9) ---
-interface FastEthernet0/9
+! --- PORT VERS SERV DHCP VLAN10 (Fa0/5) ---
+interface FastEthernet0/5
  switchport mode access
  switchport access vlan 10
  no shutdown
 exit
 !
 ! --- PORTS ACCESS PC → VLAN 20 ---
-interface FastEthernet0/2
+interface FastEthernet0/6
  switchport mode access
  switchport access vlan 20
  no shutdown
 exit
 !
-interface FastEthernet0/3
+interface FastEthernet0/7
+ switchport mode access
+ switchport access vlan 20
+ no shutdown
+exit
+!
+interface FastEthernet0/8
+ switchport mode access
+ switchport access vlan 20
+ no shutdown
+exit
+!
+interface FastEthernet0/9
+ switchport mode access
+ switchport access vlan 20
+ no shutdown
+exit
+!
+interface FastEthernet0/10
+ switchport mode access
+ switchport access vlan 20
+ no shutdown
+exit
+!
+interface FastEthernet0/11
+ switchport mode access
+ switchport access vlan 20
+ no shutdown
+exit
+!
+interface FastEthernet0/12
+ switchport mode access
+ switchport access vlan 20
+ no shutdown
+exit
+!
+interface FastEthernet0/13
+ switchport mode access
+ switchport access vlan 20
+ no shutdown
+exit
+!
+interface FastEthernet0/14
  switchport mode access
  switchport access vlan 20
  no shutdown
 exit
 !
 ! --- PORTS ACCESS TELEPHONES → VLAN 10 ---
-interface FastEthernet0/4
+interface FastEthernet0/15
  switchport mode access
  switchport access vlan 10
  no shutdown
 exit
 !
-interface FastEthernet0/5
+interface FastEthernet0/16
+ switchport mode access
+ switchport access vlan 10
+ no shutdown
+exit
+!
+interface FastEthernet0/17
+ switchport mode access
+ switchport access vlan 10
+ no shutdown
+exit
+!
+interface FastEthernet0/18
+ switchport mode access
+ switchport access vlan 10
+ no shutdown
+exit
+!
+interface FastEthernet0/19
+ switchport mode access
+ switchport access vlan 10
+ no shutdown
+exit
+!
+interface FastEthernet0/20
+ switchport mode access
+ switchport access vlan 10
+ no shutdown
+exit
+!
+interface FastEthernet0/21
+ switchport mode access
+ switchport access vlan 10
+ no shutdown
+exit
+!
+interface FastEthernet0/22
+ switchport mode access
+ switchport access vlan 10
+ no shutdown
+exit
+!
+interface FastEthernet0/23
+ switchport mode access
+ switchport access vlan 10
+ no shutdown
+exit
+!
+interface FastEthernet0/24
  switchport mode access
  switchport access vlan 10
  no shutdown
